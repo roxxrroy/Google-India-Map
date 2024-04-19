@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply font-OpenSans !z-0;
+	}
+
+	nav {
+		@apply !z-50;
+	}
+
+	h1 {
+		@apply text-2xl;
+	}
+
+	h2 {
+		@apply text-xl;
+	}
+
+	option {
+		@apply px-2 py-2 text-sm font-normal bg-white text-black w-full;
+	}
+}
+
+@layer components {
+	.card {
+		@apply rounded-md bg-cardBg h-36;
+		box-shadow: 5px 5px 20px #a2aab4, -5px -5px 20px #f4ffff;
+	}
+
+	.errMsg {
+		@apply text-RedOrange py-4 text-base;
+	}
+
+	.table {
+		@apply border-[0.5px] border-gray-300;
+	}
+
+	.thead {
+		@apply px-2 py-4 break-words bg-[#EAEFEB] font-semibold text-halfGreen;
+	}
+
+	.td {
+		@apply border-b-[0.5px] py-2 border-gray-300 bg-[#F9F9F9] break-words font-normal text-black;
+	}
+
+	.recharts-wrapper,
+	.recharts-wrapper svg {
+		@apply !z-0;
+	}
+
+	.iconBgStyle {
+		@apply bg-white h-14 w-14 flex justify-center items-center rounded-full;
+	}
+
+	.card-center {
+		@apply h-5/6 flex flex-col justify-center items-center;
+	}
+}
+.rdrMonth {
+	width: 21.8rem !important;
+}
+/* .rdrDefinedRangesWrapper {
+	width: 180px !important;
+} */
+.rdrDateRangePickerWrapper {
+	width: 100% !important;
+}
+.rdrMonths,
+.rdrDateDisplayWrapper,
+.rdrMonthAndYearWrapper {
+	width: 85%;
+}
+.rdrCalendarWrapper {
+	width: 100%;
+}
+.mainClass {
+	flex-direction: row;
+	display: flex !important;
+}
+.rdrStaticRangeLabel {
+	padding: 10px !important;
+}
+.rdrInputRange {
+	padding: 5px !important;
+	width: 170px;
+}
+
+.leaflet-popup-content {
+	width: auto !important;
+}
+
+g:focus,
+g:focus-visible,
+g:focus-within,
+svg:focus {
+	border: 0px;
+	outline: 0px;
+}
