@@ -7,7 +7,6 @@ import {
 } from '@react-google-maps/api';
 import StatePolygons from '../components/StatePolygon';
 import DistrictPolygons from '../components/DistrictPolygon';
-import Filter from '../components/Filter';
 import axios from 'axios';
 import IndiaPolygon from '../components/IndiaPolygon';
 
@@ -17,11 +16,12 @@ const Map = ({ selectedLocation, filterData }) => {
 	});
 
 	const [activeStateId, setActiveStateId] = useState(null);
-	console.log('activeStateId inside Map ====>', activeStateId);
 	const [activeDistrict, setActiveDistrict] = useState(null);
+	//console.log('activeDistrict', activeDistrict);
 	const [data, setData] = useState([]);
 	const [activeMarker, setActiveMarker] = useState(null);
-
+	const [IsState, setIsState] = useState(false);
+	console.log('IsState', IsState);
 	console.log('data inside Map', data);
 	const handleActiveMarker = (marker) => {
 		if (marker === activeMarker) {
@@ -36,49 +36,6 @@ const Map = ({ selectedLocation, filterData }) => {
 			.then((res) => setData(res.data))
 			.catch((err) => console.error(err));
 	}, []);
-	// const dataToShow = [
-	// 	{
-	// 		cropId: '5ebd77eabcc00904187a00bf',
-	// 		cropName: 'Cabbage',
-	// 		diseaseId: '64a68b9275af348fb689d9b0',
-	// 		diseaseName: 'Upward Curling (Thrips)',
-	// 		stateId: '6203a5ee199fc3be0e45f047',
-	// 		stateName: 'Karnataka',
-	// 		districtName: 'MYSURU',
-	// 		districtId: '620a1342e76dd55684be2eca',
-	// 	},
-	// 	{
-	// 		cropId: '5ebd78b6bcc00904187a00c3',
-	// 		cropName: 'Carrot',
-	// 		diseaseId: '64a68ba575af348fb689d9b1',
-	// 		diseaseName: 'Downward Curling (Mites)',
-	// 		stateId: '6203a5ee199fc3be0e45f047',
-	// 		stateName: 'Karnataka',
-	// 		districtName: 'Gulbarga',
-	// 		districtId: '647dc482240ea8e965e9523a',
-	// 	},
-	// 	{
-	// 		cropId: '60e83298fa927f00017dcc2b',
-	// 		cropName: 'Tea',
-	// 		diseaseId: '64a68ba575af348fb689d9b1',
-	// 		diseaseName: 'Downward Curling (Mites)',
-	// 		stateId: '6203a5ee199fc3be0e45f047',
-	// 		stateName: 'Karnataka',
-	// 		districtName: 'Gadag',
-	// 		districtId: '620a1342e76dd55684be2ec2',
-	// 	},
-	// 	{
-	// 		cropId: '60e83298fa927f00017dcc2b',
-	// 		cropName: 'Tea',
-	// 		diseaseId: '64a68ba575af348fb689d9b1',
-	// 		diseaseName: 'Downward Curling (Mites)',
-	// 		stateId: '6203a5ee199fc3be0e45f03a',
-	// 		stateName: 'Andhra Pradesh',
-	// 		districtName: 'Guntur',
-	// 		districtId: '620a1342e76dd55684be2db1',
-	// 	},
-	// ];
-
 	const mapRef = useRef();
 
 	const onMapLoad = useCallback((map) => {
@@ -96,6 +53,7 @@ const Map = ({ selectedLocation, filterData }) => {
 	}, []);
 
 	const onDistrictClick = useCallback((district) => {
+		//setIsState(true);
 		console.log('district ---->', district);
 		setActiveDistrict(district);
 		const bounds = new window.google.maps.LatLngBounds();
@@ -108,55 +66,81 @@ const Map = ({ selectedLocation, filterData }) => {
 	if (loadError) return 'Error';
 	if (!isLoaded) return 'Loading Maps...';
 
-	function parseCoordinates(coordString) {
-		const parts = coordString.split(',');
-		if (parts.length !== 2) {
-			return null; // or throw an error, or handle this case as needed
-		}
-		const lat = parseFloat(parts[1]);
-		const lng = parseFloat(parts[0]);
-		return { lat, lng };
-	}
+	// function parseCoordinates(coordString) {
+	// 	const parts = coordString.split(',');
+	// 	if (parts.length !== 2) {
+	// 		return null; // or throw an error, or handle this case as needed
+	// 	}
+	// 	const lat = parseFloat(parts[1]);
+	// 	const lng = parseFloat(parts[0]);
+	// 	return { lat, lng };
+	// }
 
 	// to show markers on Map containing details of that area
-	const markers = data
-		.filter((item) => {
-			return (
-				item.state_code === activeStateId &&
-				(!activeDistrict || item.districtid === activeDistrict)
-			);
-		})
-		.map((item) => ({
-			id: item.districtid,
-			cropname: item?.cropname,
-			disease: item?.disease,
-			district: item?.district,
-			state: item?.state,
-			position: parseCoordinates(item.location_coordinates),
-		}));
+	const markers = data.map((item) => ({
+		id: item?._id,
+		cropname: item?.cropname,
+		disease: item?.diseasename,
+		district: item?.district,
+		state: item?.state,
+		position: { lat: parseFloat(item?.lat), lng: parseFloat(item?.lon) },
+	}));
+	//console.log('markers', markers);
 
 	return (
 		<div style={{ width: '100vw', height: '100vh', overflow: 'hidden' }}>
+			{IsState ? (
+				<button
+					type="button"
+					onClick={() => {
+						setIsState(false);
+					}}
+					className="flex items-center w-9 h-9 justify-center bg-white p-2 text-white rounded-lg border border-gray-400"
+				>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						className="h-5 w-5"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="#4EAA6F"
+						strokeWidth="2"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+					>
+						<path d="M3 9l9-7 9 7v8a2 2 0 0 1-2 2h-2v-6a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v6H5a2 2 0 0 1-2-2z" />
+						<polyline points="9 22 9 12 15 12 15 22" />
+					</svg>
+				</button>
+			) : null}
 			<GoogleMap
 				mapContainerStyle={{
-					width: '100vw',
-					height: '100vh',
+					width: '81.5vw',
+					height: '95vh',
 				}}
 				center={selectedLocation}
 				zoom={4.5}
 				onLoad={onMapLoad}
 			>
-				<IndiaPolygon dataToShow={data} activeStateId={activeStateId} />
-				<StatePolygons
+				{/* <IndiaPolygon dataToShow={data} activeStateId={activeStateId} /> */}
+				{/* <StatePolygons
 					onStateClick={onStateClick}
 					activeStateId={activeStateId}
 					dataToShow={data}
-				/>
-				<DistrictPolygons
-					onDistrictClick={onDistrictClick}
-					activeStateId={activeStateId}
-					dataToShow={data}
-				/>
+				/> */}
+				{IsState ? (
+					<DistrictPolygons
+						onDistrictClick={onDistrictClick}
+						// activeStateId={activeStateId}
+						dataToShow={data}
+					/>
+				) : (
+					<IndiaPolygon
+						dataToShow={data}
+						activeStateId={activeStateId}
+						setIsState={setIsState}
+					/>
+				)}
+
 				{markers.map((marker) => (
 					<MarkerF
 						key={marker?.id}
@@ -175,9 +159,6 @@ const Map = ({ selectedLocation, filterData }) => {
 						) : null}
 					</MarkerF>
 				))}
-				<div className="absolute top-0 right-0 mt-20 mr-4">
-					<Filter data={data} setData={setData} />
-				</div>
 			</GoogleMap>
 		</div>
 	);

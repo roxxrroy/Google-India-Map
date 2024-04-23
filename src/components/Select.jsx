@@ -26,7 +26,13 @@ const Select = ({
 			// } else if (multiple && val.length === 0) {
 			// 	modVal = defaultSelectedValue;
 			// }
-			if (setSelectedValue) setSelectedValue(val);
+			let modVal = val;
+			if (multiple && val.length > 1) {
+				modVal = val.filter((i) => i.id !== '0000-0000-0000-0000');
+			} else if (multiple && val.length === 0) {
+				modVal = defaultSelectedValue;
+			}
+			if (setSelectedValue) setSelectedValue(modVal);
 		}}
 		disabled={disabled}
 		multiple={multiple}
@@ -68,7 +74,7 @@ const Select = ({
 					}}
 				>
 					<Listbox.Options
-						className={`absolute mt-1 max-h-60 overflow-auto rounded-md bg-white py-1 text-sm shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm ${optionsClassName}`}
+						className={`absolute !z-[99999] mt-1 max-h-60 overflow-auto rounded-md bg-white py-1 text-sm shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm ${optionsClassName}`}
 					>
 						{selectOptions.map((item) => (
 							<Listbox.Option
