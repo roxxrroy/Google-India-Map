@@ -88,34 +88,42 @@ const Map = ({ selectedLocation, filterData }) => {
 	//console.log('markers', markers);
 
 	return (
-		<div style={{ width: '100vw', height: '100vh', overflow: 'hidden' }}>
+		<div
+			style={{
+				width: '100vw',
+				height: '100vh',
+				overflow: 'hidden',
+			}}
+		>
 			{IsState ? (
-				<button
-					type="button"
-					onClick={() => {
-						setIsState(false);
-					}}
-					className="flex items-center w-9 h-9 justify-center bg-white p-2 text-white rounded-lg border border-gray-400"
-				>
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						className="h-5 w-5"
-						viewBox="0 0 24 24"
-						fill="none"
-						stroke="#4EAA6F"
-						strokeWidth="2"
-						strokeLinecap="round"
-						strokeLinejoin="round"
+				<div className="absolute left-60 top-3 z-[9]">
+					<button
+						type="button"
+						onClick={() => {
+							setIsState(false);
+						}}
+						className="flex items-center w-9 h-9 justify-center bg-white p-2 text-white rounded-lg border border-gray-400"
 					>
-						<path d="M3 9l9-7 9 7v8a2 2 0 0 1-2 2h-2v-6a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v6H5a2 2 0 0 1-2-2z" />
-						<polyline points="9 22 9 12 15 12 15 22" />
-					</svg>
-				</button>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							className="h-5 w-5"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="#4EAA6F"
+							strokeWidth="2"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+						>
+							<path d="M3 9l9-7 9 7v8a2 2 0 0 1-2 2h-2v-6a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v6H5a2 2 0 0 1-2-2z" />
+							<polyline points="9 22 9 12 15 12 15 22" />
+						</svg>
+					</button>
+				</div>
 			) : null}
 			<GoogleMap
 				mapContainerStyle={{
-					width: '81.5vw',
-					height: '95vh',
+					width: '100%',
+					height: '100%',
 				}}
 				center={selectedLocation}
 				zoom={4.5}

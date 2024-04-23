@@ -156,9 +156,9 @@ const Filter = (props) => {
 	// }, [districtData]);
 
 	return (
-		<>
+		<div className="w-full">
 			<Select
-				className="md:w-40 mt-2 md:mt-0 z-20"
+				className="md:w-40 lg:w-full mb-2.5"
 				optionsClassName="w-48"
 				btnClassName="bg-white"
 				selectOptions={stateData}
@@ -169,7 +169,7 @@ const Filter = (props) => {
 				//multiple
 			/>
 			<Select
-				className="md:w-40 mt-2 md:mt-0 z-20"
+				className="md:w-40 lg:w-full mb-2.5"
 				optionsClassName="w-48"
 				btnClassName={`${
 					districtData.length < 2 ? 'bg-disableColor' : 'bg-white'
@@ -188,7 +188,7 @@ const Filter = (props) => {
 				multiple
 			/>
 			<Select
-				className="md:w-40 mt-2 md:mt-0 z-20"
+				className="md:w-40 lg:w-full mb-2.5"
 				optionsClassName="w-40"
 				btnClassName={`${cropData.length < 1 ? 'bg-disableColor' : 'bg-white'}`}
 				selectOptions={cropData.map((crop) => ({
@@ -203,7 +203,7 @@ const Filter = (props) => {
 				multiple
 			/>
 			<Select
-				className="md:w-40 mt-2 md:mt-0 z-20"
+				className="md:w-40 lg:w-full mb-2.5"
 				optionsClassName="w-40"
 				btnClassName={`${
 					diseaseData.length < 1 ? 'bg-disableColor' : 'bg-white'
@@ -218,19 +218,25 @@ const Filter = (props) => {
 				disabled={diseaseData?.length < 1}
 				multiple
 			/>
-			<button
-				className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2 md:mt-0"
-				onClick={handleResetClick}
-			>
-				Reset
-			</button>
-			<button
-				className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2 md:mt-0 ml-2"
-				onClick={handleApplyClick}
-			>
-				Apply
-			</button>
-		</>
+			<div className="w-full flex flex-row items-center">
+				<div className="w-1/2 mr-2">
+					<button
+						className="bg-blue-500 w-full hover:bg-blue-700 text-white text-sm font-medium text-center py-2 px-4 rounded"
+						onClick={handleResetClick}
+					>
+						Reset
+					</button>
+				</div>
+				<div className="w-1/2 ml-2">
+					<button
+						className="bg-blue-500 hover:bg-blue-700 w-full text-white text-sm font-medium text-center py-2 px-4 rounded"
+						onClick={handleApplyClick}
+					>
+						Apply
+					</button>
+				</div>
+			</div>
+		</div>
 	);
 };
 

@@ -23,7 +23,7 @@ const RequireAuth = () => {
 				showExpandedSideBar={showExpandedSideBar}
 				setShowExpandedSideBar={setShowExpandedSideBar}
 			/>
-			<section className={`p-4 ${showExpandedSideBar ? 'ml-56' : 'ml-16'}`}>
+			<section className={`${showExpandedSideBar ? 'ml-56' : 'ml-16'}`}>
 				<div className="">
 					<Outlet />
 				</div>

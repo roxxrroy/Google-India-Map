@@ -20,12 +20,6 @@ const Select = ({
 		className={className}
 		value={selectedValue}
 		onChange={(val) => {
-			// let modVal = val;
-			// if (multiple && val.length > 1) {
-			// 	modVal = val.filter((i) => i.id !== '0000-0000-0000-0000');
-			// } else if (multiple && val.length === 0) {
-			// 	modVal = defaultSelectedValue;
-			// }
 			let modVal = val;
 			if (multiple && val.length > 1) {
 				modVal = val.filter((i) => i.id !== '0000-0000-0000-0000');

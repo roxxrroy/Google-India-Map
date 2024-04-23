@@ -42,7 +42,7 @@ const NavBar = ({
 				/>
 			</div>
 
-			<div className="h-screen pl-2">
+			<div className="h-screen w-full px-3">
 				<ul className="space-y-2">
 					{/* <li className="space-y-4">
 						<Link
@@ -57,8 +57,7 @@ const NavBar = ({
 							<DashboardIcon className="h-5 w-5" fill="white" />
 							{showExpandedSideBar && <span className="ml-2.5">Dashboard</span>}
 						</Link>
-					</li>
-                    */}
+					</li> */}
 					<Filter />
 				</ul>
 			</div>
