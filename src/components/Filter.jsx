@@ -1,28 +1,20 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import Select from './Select';
 import axios from 'axios';
+import { dataContext } from '../context/context';
 
-const Filter = (props) => {
-	console.log('props', props);
+const Filter = () => {
 	const [stateData, setStateData] = useState([]);
-	const [selectedState, setSelectedState] = useState({
-		id: 1,
-		label: '--Select State--',
-	});
-	console.log('selectedState', selectedState?.id);
+	const [selectedState, setSelectedState] = useState({});
 	const [districtData, setDistrictData] = useState([]);
-	console.log('districtData', districtData);
 	const [selectedDistrict, setSelectedDistrict] = useState([]);
 	const [cropData, setCropData] = useState([]);
-	const [selectedCrop, setSelectedCrop] = useState([
-		{ id: 1, label: '--Select Crop--' },
-	]);
+	const [selectedCrop, setSelectedCrop] = useState([]);
 	const [diseaseData, setDiseaseData] = useState([]);
-	const [selectedDisease, setSelectedDisease] = useState([
-		{ id: 1, label: '--Select Disease--' },
-	]);
+	const [selectedDisease, setSelectedDisease] = useState([]);
+	const { data, setData } = useContext(dataContext);
 
-	console.log('data inside filter', props.data);
+	console.log('data ---->>>>>>>', data);
 
 	useEffect(() => {
 		axios
@@ -31,23 +23,7 @@ const Filter = (props) => {
 			.catch((err) => console.error(err));
 	}, []);
 
-	useEffect(() => {
-		axios
-			.get(`http://localhost:3031/districts`)
-			.then((res) => setDistrictData(res?.data))
-			.catch((err) => console.error(err));
-	}, []);
-
 	// Fetch districts data based on the selected state ID
-	// useEffect(() => {
-	// 	if (selectedState) {
-	// 		axios
-	// 			.get(`http://localhost:3031/districts?stateId=${selectedState?.id}`)
-	// 			.then((res) => setDistrictData(res.data))
-	// 			.catch((err) => console.error(err));
-	// 	}
-	// }, [selectedState]);
-
 	useEffect(() => {
 		if (selectedState) {
 			// Define your bearer token
@@ -83,6 +59,14 @@ const Filter = (props) => {
 	}, []);
 
 	useEffect(() => {
+		setSelectedState({
+			id: '0000-0000-0000-0000',
+			label: '--Select State--',
+			stateId: stateData?.length ? stateData[0].id : 0,
+		});
+	}, [stateData]);
+
+	useEffect(() => {
 		setSelectedDistrict([
 			{
 				id: '0000-0000-0000-0000',
@@ -91,31 +75,55 @@ const Filter = (props) => {
 			},
 		]);
 	}, [districtData]);
-	// useEffect(() => {
-	// 	axios
-	// 		.get('http://localhost:3031/data')
-	// 		.then((res) => setData(res.data))
-	// 		.catch((err) => console.error(err));
-	// }, []);
+
+	useEffect(() => {
+		setSelectedCrop([
+			{
+				id: '0000-0000-0000-0000',
+				label: '--Select Crop--',
+				cropId: cropData?.length ? cropData[0].id : 0,
+			},
+		]);
+	}, [cropData]);
+
+	useEffect(() => {
+		setSelectedDisease([
+			{
+				id: '0000-0000-0000-0000',
+				label: '--Select Disease--',
+				diseaseId: diseaseData?.length ? diseaseData[0].id : 0,
+			},
+		]);
+	}, [diseaseData]);
 
 	const handleApplyClick = () => {
 		let queryParams = new URLSearchParams();
 
 		// Conditionally append parameters if they exist and are not undefined
-		if (selectedCrop.length > 0) {
+		if (selectedCrop.length && selectedCrop[0]?.label !== '--Select Crop--') {
 			selectedCrop.forEach((crop) => {
-				queryParams.append('cropid', crop.id);
+				queryParams.append('cropId', crop?.id);
 			});
 		}
-
-		if (selectedDisease && selectedDisease.id) {
-			queryParams.append('diseaseid', selectedDisease.id);
+		if (
+			selectedDisease.length &&
+			selectedDisease[0]?.label !== '--Select Disease--'
+		) {
+			selectedDisease.forEach((disease) => {
+				queryParams.append('diseaseId', disease?.id);
+			});
+			// queryParams.append('diseaseId', selectedDisease.id);
 		}
-		if (selectedState && selectedState.id) {
-			queryParams.append('state_code', selectedState.id);
+		if (selectedState && selectedState?.label !== '--Select State--') {
+			queryParams.append('state', selectedState?.label);
 		}
-		if (selectedDistrict && selectedDistrict.id) {
-			queryParams.append('districtid', selectedDistrict.id);
+		if (
+			selectedDistrict.length &&
+			selectedDistrict[0]?.label !== '--Select District--'
+		) {
+			selectedDistrict.forEach((district) => {
+				queryParams.append('district', district?.label);
+			});
 		}
 
 		// Convert URLSearchParams to string for the request
@@ -125,111 +133,123 @@ const Filter = (props) => {
 		axios
 			.get(`http://localhost:3031/data?${queryParams}`)
 			.then((res) => {
-				console.log('Filtered Data:', res.data);
-				props.setData(res.data);
-				// You can set this data to state to display or handle it as needed
+				//console.log('Filtered Data:', res.data);
+				setData(res.data);
 			})
 			.catch((err) => console.error('Error fetching filtered data:', err));
 	};
 
 	const handleResetClick = () => {
-		setSelectedState({});
-		setSelectedDistrict([]);
-		setSelectedCrop([]);
-		setSelectedDisease([]);
+		setSelectedState({
+			id: '0000-0000-0000-0000',
+			label: '--Select State--',
+			stateId: stateData?.length ? stateData[0].id : 0,
+		});
+		setSelectedDistrict([
+			{
+				id: '0000-0000-0000-0000',
+				label: '--Select District--',
+				districtsId: districtData?.length ? districtData[0].id : 0,
+			},
+		]);
+		setSelectedCrop([
+			{
+				id: '0000-0000-0000-0000',
+				label: '--Select Crop--',
+				cropId: cropData?.length ? cropData[0].id : 0,
+			},
+		]);
+		setSelectedDisease([
+			{
+				id: '0000-0000-0000-0000',
+				label: '--Select Disease--',
+				diseaseId: diseaseData?.length ? diseaseData[0].id : 0,
+			},
+		]);
 	};
-
-	const defaultSelectedCrop = { id: 1, label: '--Select Crop--' };
-	const defaultSelectedDisease = [{ id: 1, label: '--Select Disease--' }];
-
-	// const defaultSelectedDistrict = useMemo(() => {
-	// 	if (districtData?.length) {
-	// 		return [
-	// 			{
-	// 				id: '0000-0000-0000-0000',
-	// 				label: '--Select District--',
-	// 				cropId: districtData?.length ? districtData[0]?.id : 0,
-	// 			},
-	// 		];
-	// 	}
-	// 	return [];
-	// }, [districtData]);
 
 	return (
 		<>
-			<Select
-				className="md:w-40 mt-2 md:mt-0 z-20"
-				optionsClassName="w-48"
-				btnClassName="bg-white"
-				selectOptions={stateData}
-				setSelectedValue={setSelectedState}
-				selectedValue={selectedState}
-				isLoading={false}
-				disabled={stateData?.length < 1}
-				//multiple
-			/>
-			<Select
-				className="md:w-40 mt-2 md:mt-0 z-20"
-				optionsClassName="w-48"
-				btnClassName={`${
-					districtData.length < 2 ? 'bg-disableColor' : 'bg-white'
-				}`}
-				selectOptions={districtData.map((district) => ({
-					id: district?._id,
-					label: district?.name,
-				}))}
-				setSelectedValue={setSelectedDistrict}
-				selectedValue={selectedDistrict}
-				isLoading={false}
-				// disabled={
-				// 	districtData.length < 2 || stateLabels.includes(selectedState.label)
-				// }
-				//defaultSelectedValue={defaultSelectedDistrict}
-				multiple
-			/>
-			<Select
-				className="md:w-40 mt-2 md:mt-0 z-20"
-				optionsClassName="w-40"
-				btnClassName={`${cropData.length < 1 ? 'bg-disableColor' : 'bg-white'}`}
-				selectOptions={cropData.map((crop) => ({
-					id: crop.cropId,
-					label: crop.cropName,
-				}))}
-				setSelectedValue={setSelectedCrop}
-				selectedValue={selectedCrop}
-				isLoading={false}
-				disabled={cropData?.length < 1}
-				defaultSelectedValue={defaultSelectedCrop}
-				multiple
-			/>
-			<Select
-				className="md:w-40 mt-2 md:mt-0 z-20"
-				optionsClassName="w-40"
-				btnClassName={`${
-					diseaseData.length < 1 ? 'bg-disableColor' : 'bg-white'
-				}`}
-				selectOptions={diseaseData.map((disease) => ({
-					id: disease.diseaseId,
-					label: disease.diseaseName,
-				}))}
-				setSelectedValue={setSelectedDisease}
-				selectedValue={selectedDisease}
-				isLoading={false}
-				disabled={diseaseData?.length < 1}
-				multiple
-			/>
-			<button
-				className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2 md:mt-0"
-				onClick={handleResetClick}
-			>
-				Reset
-			</button>
-			<button
-				className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-2 md:mt-0 ml-2"
-				onClick={handleApplyClick}
-			>
-				Apply
-			</button>
+			<dataContext.Provider value={{ data, setData }}>
+				<Select
+					className="md:w-40 lg:w-full mb-2.5"
+					optionsClassName="w-48"
+					btnClassName="bg-white"
+					selectOptions={stateData}
+					setSelectedValue={setSelectedState}
+					selectedValue={selectedState}
+					isLoading={false}
+					disabled={stateData?.length < 1}
+				/>
+				<Select
+					className="md:w-40 lg:w-full mb-2.5"
+					optionsClassName="w-48"
+					btnClassName={`${
+						districtData.length < 2 ? 'bg-disableColor' : 'bg-white'
+					}`}
+					selectOptions={districtData.map((district) => ({
+						id: district?._id,
+						label: district?.name,
+					}))}
+					setSelectedValue={setSelectedDistrict}
+					selectedValue={selectedDistrict}
+					isLoading={false}
+					// disabled={
+					// 	districtData.length < 2 || stateLabels.includes(selectedState.label)
+					// }
+					multiple
+				/>
+				<Select
+					className="md:w-40 lg:w-full mb-2.5"
+					optionsClassName="w-40"
+					btnClassName={`${
+						cropData.length < 1 ? 'bg-disableColor' : 'bg-white'
+					}`}
+					selectOptions={cropData.map((crop) => ({
+						id: crop.cropId,
+						label: crop.cropName,
+					}))}
+					setSelectedValue={setSelectedCrop}
+					selectedValue={selectedCrop}
+					isLoading={false}
+					disabled={cropData?.length < 1}
+					multiple
+				/>
+				<Select
+					className="md:w-40 lg:w-full mb-2.5"
+					optionsClassName="w-40"
+					btnClassName={`${
+						diseaseData.length < 1 ? 'bg-disableColor' : 'bg-white'
+					}`}
+					selectOptions={diseaseData.map((disease) => ({
+						id: disease.diseaseId,
+						label: disease.diseaseName,
+					}))}
+					setSelectedValue={setSelectedDisease}
+					selectedValue={selectedDisease}
+					isLoading={false}
+					disabled={diseaseData?.length < 1}
+					multiple
+				/>
+				<div className="w-full flex flex-row items-center">
+					<div className="w-1/2 mr-2">
+						<button
+							className="bg-blue-500 w-full hover:bg-blue-700 text-white text-sm font-medium text-center py-2 px-4 rounded"
+							onClick={handleResetClick}
+						>
+							Reset
+						</button>
+					</div>
+					<div className="w-1/2 ml-2">
+						<button
+							className="bg-blue-500 hover:bg-blue-700 w-full text-white text-sm font-medium text-center py-2 px-4 rounded"
+							onClick={handleApplyClick}
+						>
+							Apply
+						</button>
+					</div>
+				</div>
+			</dataContext.Provider>
 		</>
 	);
 };

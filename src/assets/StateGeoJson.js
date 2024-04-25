@@ -8,7 +8,7 @@ export const stateGeoJson = {
 				stateId: '6203a5ee199fc3be0e45f03a',
 				stateName: 'Andhra Pradesh',
 				districtId: '620a1342e76dd55684be2dae',
-				districtName: 'Anantapur',
+				districtName: 'Ananthapuramu',
 				NL_NAME_2: null,
 				VARNAME_2: 'Anantpur, Ananthapur',
 				TYPE_2: 'District',

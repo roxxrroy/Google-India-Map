@@ -9,10 +9,6 @@ const NavBar = ({
 	showExpandedSideBar,
 	setShowExpandedSideBar,
 }) => {
-	const { cId } = useParams();
-	const navigate = useNavigate();
-	// const filters = useGetFilters();
-
 	useEffect(() => {
 		(async () => {
 			const hideSideBar = await localStorage.getItem('showExpandedSideBar');
@@ -36,13 +32,13 @@ const NavBar = ({
 						showExpandedSideBar ? 'h-full ml-4' : 'ml-2 h-16 w-12'
 					} object-contain`}
 					src={
-						'https://www.google.com/images/branding/lockups/2x/lockup_maps_color_131x24dp.png'
+						'https://www.bighaat.com/_next/image?url=%2Fimages%2Fbighaat-logo.png&w=384&q=75'
 					}
 					alt="avatar"
 				/>
 			</div>
 
-			<div className="h-screen pl-2">
+			<div className="h-screen  w-full px-3">
 				<ul className="space-y-2">
 					{/* <li className="space-y-4">
 						<Link
