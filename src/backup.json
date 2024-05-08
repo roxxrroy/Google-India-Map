@@ -1,0 +1,6594 @@
+[{
+    "_id": {
+      "$oid": "61736af44139045090daf5b5"
+    },
+    "cropdocId": {
+      "$oid": "60c32e0305e3ea0001029cdb"
+    },
+    "imageUrl": "plantdoctor/973c1d33-a86c-474f-993e-873821dc5f32.JPEG",
+    "cropId": "60786a01317478226826038c",
+    "cropname": "Cauliflower",
+    "diseaseId": "6094a05c8649130001268aa7",
+    "diseasename": "Cabbage butterfly",
+    "userId": {
+      "$oid": "604e057a84788c00012c27a6"
+    },
+    "lat": "19.51905356926278",
+    "lon": "78.57940437285379",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Sitharam Guda",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1623404031707"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61736af44139045090daf5b6"
+    },
+    "cropdocId": {
+      "$oid": "60c32e1fe51f7d00018bf72c"
+    },
+    "imageUrl": "plantdoctor/1dbce4a2-7fd0-489c-9721-08f4ccb2823d.JPEG",
+    "cropId": "60786a01317478226826038c",
+    "cropname": "Cauliflower",
+    "diseaseId": "6094a05c8649130001268aa7",
+    "diseasename": "Cabbage butterfly",
+    "userId": {
+      "$oid": "604e057a84788c00012c27a6"
+    },
+    "lat": "19.51905356926278",
+    "lon": "78.57940437285379",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Sitharam Guda",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1623404060711"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61736af54139045090daf5b7"
+    },
+    "cropdocId": {
+      "$oid": "60c32e4205e3ea0001029cdc"
+    },
+    "imageUrl": "plantdoctor/c313113b-9880-402d-8eac-3bf33ab28432.JPEG",
+    "cropId": "60786a01317478226826038c",
+    "cropname": "Cauliflower",
+    "diseaseId": "6094a05c8649130001268aa7",
+    "diseasename": "Cabbage butterfly",
+    "userId": {
+      "$oid": "604e057a84788c00012c27a6"
+    },
+    "lat": "19.51905356926278",
+    "lon": "78.57940437285379",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Sitharam Guda",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1623404095533"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61736af64139045090daf5b8"
+    },
+    "cropdocId": {
+      "$oid": "60c32e5ee51f7d00018bf72d"
+    },
+    "imageUrl": "plantdoctor/78fc94ca-906a-423b-a787-3bbcd0253723.JPEG",
+    "cropId": "60786a01317478226826038c",
+    "cropname": "Cauliflower",
+    "diseaseId": "6094a05c8649130001268aa7",
+    "diseasename": "Cabbage butterfly",
+    "userId": {
+      "$oid": "604e057a84788c00012c27a6"
+    },
+    "lat": "19.51905356926278",
+    "lon": "78.57940437285379",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Sitharam Guda",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1623404123250"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617371a54139045090dafda8"
+    },
+    "cropdocId": {
+      "$oid": "60d0cbc9fa4c320001aebd89"
+    },
+    "imageUrl": "plantdoctor/592d3da7-528c-4299-a149-b961b1d1bc2f.JPEG",
+    "cropId": "5ebd78e2bcc00904187a00c4",
+    "cropname": "Brinjal",
+    "diseaseId": "5f60d817602688768f463424",
+    "diseasename": "BRINJAL Fruit and Shoot Borer",
+    "userId": {
+      "$oid": "60d0cb1fcfa835000158f457"
+    },
+    "lat": "19.290841248087474",
+    "lon": "78.43742384702571",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Buggaram",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1624296390717"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617371a64139045090dafda9"
+    },
+    "cropdocId": {
+      "$oid": "60d0cd339646f600014fc41d"
+    },
+    "imageUrl": "plantdoctor/7e3d5eb4-970d-4159-9b98-e24e0e6c1d4f.JPEG",
+    "cropId": "5ebd78e2bcc00904187a00c4",
+    "cropname": "Brinjal",
+    "diseaseId": "5f3fbe0e886a562f2a6b54e7",
+    "diseasename": "Leaf Eating Caterpillars",
+    "userId": {
+      "$oid": "60d0cb1fcfa835000158f457"
+    },
+    "lat": "19.290841248087474",
+    "lon": "78.43742384702571",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Buggaram",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1624296752964"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173726b4139045090dafe92"
+    },
+    "cropdocId": {
+      "$oid": "60d2d2e2c5852a0001878fc7"
+    },
+    "imageUrl": "plantdoctor/a861e15b-1082-488a-a1c1-ffd6380feee7.JPEG",
+    "cropId": "60657d098cffea00012bd85e",
+    "cropname": "Cucumber (open)",
+    "diseaseId": "5f440cff611a1212e280d663",
+    "diseasename": "Yellow Leaf mosaic Virus",
+    "userId": {
+      "$oid": "60d19b6e529e7d00019d5dec"
+    },
+    "lat": "19.699261966877724",
+    "lon": "78.45446341336434",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Jamdi",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1624429279720"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173726c4139045090dafe94"
+    },
+    "cropdocId": {
+      "$oid": "60d2d335c5852a0001878fc8"
+    },
+    "imageUrl": "plantdoctor/c0efd17f-0bc8-4231-97cd-2baf58aaf879.JPEG",
+    "cropId": "60657d098cffea00012bd85e",
+    "cropname": "Cucumber (open)",
+    "diseaseId": "5f440cff611a1212e280d663",
+    "diseasename": "Yellow Leaf mosaic Virus",
+    "userId": {
+      "$oid": "60d19b6e529e7d00019d5dec"
+    },
+    "lat": "19.699261966877724",
+    "lon": "78.45446341336434",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Jamdi",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1624429359621"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173726d4139045090dafe95"
+    },
+    "cropdocId": {
+      "$oid": "60d2d350c5852a0001878fc9"
+    },
+    "imageUrl": "plantdoctor/31046bea-df20-4db7-b5ad-4ef39c153102.JPEG",
+    "cropId": "60657d098cffea00012bd85e",
+    "cropname": "Cucumber (open)",
+    "diseaseId": "5f440cff611a1212e280d663",
+    "diseasename": "Yellow Leaf mosaic Virus",
+    "userId": {
+      "$oid": "60d19b6e529e7d00019d5dec"
+    },
+    "lat": "19.699261966877724",
+    "lon": "78.45446341336434",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Jamdi",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1624429380857"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173726e4139045090dafe96"
+    },
+    "cropdocId": {
+      "$oid": "60d2d4a2fa4c320001aebdcb"
+    },
+    "imageUrl": "plantdoctor/c895fb66-c92f-46e5-859b-317f4213fccb.JPEG",
+    "cropId": "60657d098cffea00012bd85e",
+    "cropname": "Cucumber (open)",
+    "diseaseId": "5f440cff611a1212e280d663",
+    "diseasename": "Yellow Leaf mosaic Virus",
+    "userId": {
+      "$oid": "60d19b6e529e7d00019d5dec"
+    },
+    "lat": "19.605560971836248",
+    "lon": "78.49012822352384",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Seethagondi",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1624429724564"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173726f4139045090dafe97"
+    },
+    "cropdocId": {
+      "$oid": "60d2d4afc5852a0001878fca"
+    },
+    "imageUrl": "plantdoctor/db9258dd-6d16-4eed-9852-ee1ed4269ced.JPEG",
+    "cropId": "60657d098cffea00012bd85e",
+    "cropname": "Cucumber (open)",
+    "diseaseId": "5f440cff611a1212e280d663",
+    "diseasename": "Yellow Leaf mosaic Virus",
+    "userId": {
+      "$oid": "60d19b6e529e7d00019d5dec"
+    },
+    "lat": "19.605560971836248",
+    "lon": "78.49012822352384",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Seethagondi",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1624429740012"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617372704139045090dafe98"
+    },
+    "cropdocId": {
+      "$oid": "60d2d507c5852a0001878fcb"
+    },
+    "imageUrl": "plantdoctor/0a7ced65-3180-4891-aae7-21be16697dec.JPEG",
+    "cropId": "6065980fd95c9b000154c521",
+    "cropname": "Ridge gourd",
+    "diseaseId": "5f440cff611a1212e280d663",
+    "diseasename": "Yellow Leaf mosaic Virus",
+    "userId": {
+      "$oid": "60d19b6e529e7d00019d5dec"
+    },
+    "lat": "19.605560971836248",
+    "lon": "78.49012822352384",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Seethagondi",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1624429824293"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617372714139045090dafe9a"
+    },
+    "cropdocId": {
+      "$oid": "60d2d51cc5852a0001878fcc"
+    },
+    "imageUrl": "plantdoctor/137b02af-f9a2-4ac5-8ec6-f6272dde46a0.JPEG",
+    "cropId": "6065980fd95c9b000154c521",
+    "cropname": "Ridge gourd",
+    "diseaseId": "5f440cff611a1212e280d663",
+    "diseasename": "Yellow Leaf mosaic Virus",
+    "userId": {
+      "$oid": "60d19b6e529e7d00019d5dec"
+    },
+    "lat": "19.605560971836248",
+    "lon": "78.49012822352384",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Seethagondi",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1624429846758"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173822b4139045090db116d"
+    },
+    "cropdocId": {
+      "$oid": "60ef88c8576ff40001ebca5d"
+    },
+    "imageUrl": "plantdoctor/6a471aaa-8b5f-41ec-95fb-5adedc99a541.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3f861b886a562f2a6b54dd",
+    "diseasename": "Leaf Miner",
+    "userId": {
+      "$oid": "5f4f3c0a71a0b4478c552087"
+    },
+    "lat": "19.52260670564574",
+    "lon": "78.5670946704347",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Lendi Guda",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1626310852526"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61738c184139045090db1d69"
+    },
+    "cropdocId": {
+      "$oid": "60ff6b887bb75f00010fea41"
+    },
+    "imageUrl": "plantdoctor/5f2800b9-abb2-4932-ad79-fcc829d43e34.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f4409e3611a1212e280d660",
+    "diseasename": "Bacterial wilt/sourthern bacterial blight disease",
+    "userId": {
+      "$oid": "60ea77a80480ca0001ae7459"
+    },
+    "lat": "19.46021853741685",
+    "lon": "78.7014646792168",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Eshwar Nagar",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1627351936296"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617395904139045090db28c2"
+    },
+    "cropdocId": {
+      "$oid": "610cd39a7bb75f00010fedf9"
+    },
+    "imageUrl": "plantdoctor/20001d9d-0a64-406a-9f76-b977dfb5c06f.JPEG",
+    "cropId": "60caf46fd8ecf200011846c7",
+    "cropname": "Soybean",
+    "diseaseId": "5f3fbe0e886a562f2a6b54e7",
+    "diseasename": "Leaf Eating Caterpillars",
+    "userId": {
+      "$oid": "6087f06bab2a560001ca7319"
+    },
+    "lat": "19.7289131",
+    "lon": "78.7757005",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Bela",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1628230548056"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617395924139045090db28c4"
+    },
+    "cropdocId": {
+      "$oid": "610cd429308c670001a6589a"
+    },
+    "imageUrl": "plantdoctor/2850c2c2-e157-48d1-b943-6e0a77133c92.JPEG",
+    "cropId": "60caf46fd8ecf200011846c7",
+    "cropname": "Soybean",
+    "diseaseId": "5f3fbe0e886a562f2a6b54e7",
+    "diseasename": "Leaf Eating Caterpillars",
+    "userId": {
+      "$oid": "6087f06bab2a560001ca7319"
+    },
+    "lat": "19.7289131",
+    "lon": "78.7757005",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Bela",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1628230693482"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617396f44139045090db2a6b"
+    },
+    "cropdocId": {
+      "$oid": "610e2855ef39a20001b0a1a4"
+    },
+    "imageUrl": "plantdoctor/16741fe9-dfb8-4f41-b98c-33155143c2da.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbaa6886a562f2a6b54e4",
+    "diseasename": "Aphids",
+    "userId": {
+      "$oid": "60eeeb100480ca0001ae795a"
+    },
+    "lat": "19.47107953560693",
+    "lon": "78.37886321135367",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Dignoor",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1628317779396"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61739bcb4139045090db3039"
+    },
+    "cropdocId": {
+      "$oid": "6114db3f263c53000126b4a2"
+    },
+    "imageUrl": "plantdoctor/e99063f5-4028-4a50-9787-9d58dce3a050.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f4900a2cf7c660d284c0808",
+    "diseasename": "Blossom end rot",
+    "userId": {
+      "$oid": "61064230f1dd9400014d78af"
+    },
+    "lat": "19.522729733370426",
+    "lon": "78.56705378608424",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Lendi Guda",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1628756794093"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61739d2b4139045090db31df"
+    },
+    "cropdocId": {
+      "$oid": "6117a35ce2094900019960d8"
+    },
+    "imageUrl": "plantdoctor/10fd5ac7-5e61-490d-98c3-57f9a59ad1a9.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbaa6886a562f2a6b54e4",
+    "diseasename": "Aphids",
+    "userId": {
+      "$oid": "6117a2425b08f7000174635f"
+    },
+    "lat": "19.298159618914788",
+    "lon": "78.4052384423939",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1628939093608"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61739d2e4139045090db31e2"
+    },
+    "cropdocId": {
+      "$oid": "6117a690e2094900019960d9"
+    },
+    "imageUrl": "plantdoctor/4436163f-2a77-474b-a873-ef299912277e.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fb9c3886a562f2a6b54e2",
+    "diseasename": "Whiteflies",
+    "userId": {
+      "$oid": "60cef626529e7d00019d5bda"
+    },
+    "lat": "19.859547016583377",
+    "lon": "78.31945496469568",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Karanji",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1628939913150"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61739d2f4139045090db31e3"
+    },
+    "cropdocId": {
+      "$oid": "6117a703d231380001c7d3c2"
+    },
+    "imageUrl": "plantdoctor/a9018343-3c0d-4c99-b9ce-5bcc6603d32f.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fb9c3886a562f2a6b54e2",
+    "diseasename": "Whiteflies",
+    "userId": {
+      "$oid": "60cef626529e7d00019d5bda"
+    },
+    "lat": "19.859547016583377",
+    "lon": "78.31945496469568",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Karanji",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1628940024599"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61739d304139045090db31e4"
+    },
+    "cropdocId": {
+      "$oid": "6117a73ee2094900019960da"
+    },
+    "imageUrl": "plantdoctor/12576830-50e0-40da-81fd-ec140b049cd8.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbaa6886a562f2a6b54e4",
+    "diseasename": "Aphids",
+    "userId": {
+      "$oid": "60cef626529e7d00019d5bda"
+    },
+    "lat": "19.859547016583377",
+    "lon": "78.31945496469568",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Karanji",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1628940086946"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61739d304139045090db31e5"
+    },
+    "cropdocId": {
+      "$oid": "6117a77be46b78000189f7d5"
+    },
+    "imageUrl": "plantdoctor/ec353415-4290-4ecc-b7ac-b622a4298cf7.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbaa6886a562f2a6b54e4",
+    "diseasename": "Aphids",
+    "userId": {
+      "$oid": "60cef626529e7d00019d5bda"
+    },
+    "lat": "19.859547016583377",
+    "lon": "78.31945496469568",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Karanji",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1628940145548"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61739d314139045090db31e6"
+    },
+    "cropdocId": {
+      "$oid": "6117a82f9f1a930001f4319c"
+    },
+    "imageUrl": "plantdoctor/27c98673-4341-4cb6-9d84-4b539119f897.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbaa6886a562f2a6b54e4",
+    "diseasename": "Aphids",
+    "userId": {
+      "$oid": "60cef626529e7d00019d5bda"
+    },
+    "lat": "19.859547016583377",
+    "lon": "78.31945496469568",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Karanji",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1628940328932"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61739f574139045090db3472"
+    },
+    "cropdocId": {
+      "$oid": "611a3d7992f4b00001ef83f6"
+    },
+    "imageUrl": "plantdoctor/ced47f49-4b59-40d7-ba8d-b66e8029f242.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbe0e886a562f2a6b54e7",
+    "diseasename": "Leaf Eating Caterpillars",
+    "userId": {
+      "$oid": "6117a2425b08f7000174635f"
+    },
+    "lat": "19.298267285675152",
+    "lon": "78.4061557116504",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629109622920"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61739f584139045090db3473"
+    },
+    "cropdocId": {
+      "$oid": "611a3db98e17a10001529a47"
+    },
+    "imageUrl": "plantdoctor/ae70dcb0-a7ce-46a4-a517-a18a4a8a9203.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbe0e886a562f2a6b54e7",
+    "diseasename": "Leaf Eating Caterpillars",
+    "userId": {
+      "$oid": "6117a2425b08f7000174635f"
+    },
+    "lat": "19.298267285675152",
+    "lon": "78.4061557116504",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629109686680"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a2644139045090db381e"
+    },
+    "cropdocId": {
+      "$oid": "611f157eb305be000192a513"
+    },
+    "imageUrl": "plantdoctor/fc6c589c-abfa-44cd-a048-110110dc26de.JPEG",
+    "cropId": "5ebd6c47bcc00904187a00b7",
+    "cropname": "Banana",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "60f135d20480ca0001ae7bb5"
+    },
+    "lat": "19.72436072828283",
+    "lon": "78.72724354155415",
+    "road": "NH353B",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Ballori",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629427067206"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a2954139045090db3859"
+    },
+    "cropdocId": {
+      "$oid": "611f3ea6d315f20001d8ad68"
+    },
+    "imageUrl": "plantdoctor/c7c5ea82-9d0a-482f-9fcf-479263bfaaff.JPEG",
+    "cropId": "60caf46fd8ecf200011846c7",
+    "cropname": "Soybean",
+    "diseaseId": "5f440cff611a1212e280d663",
+    "diseasename": "Yellow Leaf mosaic Virus",
+    "userId": {
+      "$oid": "611f3df50480ca0001aeaaab"
+    },
+    "lat": "19.7170837",
+    "lon": "78.7570936",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Takli",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629437603200"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a3444139045090db3929"
+    },
+    "cropdocId": {
+      "$oid": "61204346b305be000192a560"
+    },
+    "imageUrl": "plantdoctor/9ee9d03e-d2bb-4ee7-81b8-34e809b9ab39.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbaa6886a562f2a6b54e4",
+    "diseasename": "Aphids",
+    "userId": {
+      "$oid": "61203f520480ca0001aeab8c"
+    },
+    "lat": "19.60025425772366",
+    "lon": "78.60473883668277",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Lokari",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629504323530"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a4984139045090db3ac3"
+    },
+    "cropdocId": {
+      "$oid": "6121d352b305be000192a5de"
+    },
+    "imageUrl": "plantdoctor/52d15930-7723-40ac-a6a1-fb88f5fccb3d.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f440458611a1212e280d65c",
+    "diseasename": "Tomato Spotted Wilt Virus (TOSPOW Virus)",
+    "userId": {
+      "$oid": "6114a9850480ca0001aea045"
+    },
+    "lat": "19.2079336",
+    "lon": "78.4269036",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Lingatla",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629606733407"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a4bd4139045090db3af1"
+    },
+    "cropdocId": {
+      "$oid": "6121f48ab305be000192a5e9"
+    },
+    "imageUrl": "plantdoctor/83145f84-8fcb-4476-9fef-bdf02f6347f7.JPEG",
+    "cropId": "60caf46fd8ecf200011846c7",
+    "cropname": "Soybean",
+    "diseaseId": "5f3fbe0e886a562f2a6b54e7",
+    "diseasename": "Leaf Eating Caterpillars",
+    "userId": {
+      "$oid": "612075d45b08f70001746c17"
+    },
+    "lat": "19.47723052947224",
+    "lon": "78.49110649026676",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chinna Mannur",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629615237575"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a4be4139045090db3af2"
+    },
+    "cropdocId": {
+      "$oid": "6121f4c2d315f20001d8ae2d"
+    },
+    "imageUrl": "plantdoctor/34bb70ca-f056-4c33-97ad-375d6164e830.JPEG",
+    "cropId": "60caf46fd8ecf200011846c7",
+    "cropname": "Soybean",
+    "diseaseId": "60b4a06ce9ca9d0001eb3782",
+    "diseasename": "Rust",
+    "userId": {
+      "$oid": "612075d45b08f70001746c17"
+    },
+    "lat": "19.47723052947224",
+    "lon": "78.49110649026676",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chinna Mannur",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629615293250"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a6444139045090db3cc5"
+    },
+    "cropdocId": {
+      "$oid": "6123c40ad315f20001d8aeb3"
+    },
+    "imageUrl": "plantdoctor/1b7f9157-7773-4fa3-a8a1-631f36934ea7.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f493f35cf7c660d284c080a",
+    "diseasename": "Chlorosis (Yellowing)",
+    "userId": {
+      "$oid": "61161b52f1dd9400014d8ab0"
+    },
+    "lat": "19.633938844930316",
+    "lon": "78.46589216794185",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629733892778"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a6ab4139045090db3d41"
+    },
+    "cropdocId": {
+      "$oid": "61248e93da880700013dfc80"
+    },
+    "imageUrl": "plantdoctor/5adfb6ef-d88b-4226-b915-528089ba96d4.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbaa6886a562f2a6b54e4",
+    "diseasename": "Aphids",
+    "userId": {
+      "$oid": "612210f2f1dd9400014d96e8"
+    },
+    "lat": "19.6370731",
+    "lon": "78.3268457",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Umrei",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629785742200"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a6ab4139045090db3d42"
+    },
+    "cropdocId": {
+      "$oid": "61248ef3f9ed710001ba3d3e"
+    },
+    "imageUrl": "plantdoctor/dfca7e6c-2528-4081-8bf8-073ecf7d2555.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbaa6886a562f2a6b54e4",
+    "diseasename": "Aphids",
+    "userId": {
+      "$oid": "612210f2f1dd9400014d96e8"
+    },
+    "lat": "19.6370731",
+    "lon": "78.3268457",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Umrei",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629785836969"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a6b34139045090db3d4b"
+    },
+    "cropdocId": {
+      "$oid": "6124984ef9ed710001ba3d42"
+    },
+    "imageUrl": "plantdoctor/c360917f-1e0e-4ded-a3cb-c51998e55e87.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbaa6886a562f2a6b54e4",
+    "diseasename": "Aphids",
+    "userId": {
+      "$oid": "60f56ed15b08f70001743fbc"
+    },
+    "lat": "19.294086008874725",
+    "lon": "78.29403051408462",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Kuchalapur",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629788233972"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a6f94139045090db3d9f"
+    },
+    "cropdocId": {
+      "$oid": "6124d3fbb305be000192a6b8"
+    },
+    "imageUrl": "plantdoctor/717a31bd-64e2-4cfc-8831-5cb004fcf320.JPEG",
+    "cropId": "60caf46fd8ecf200011846c7",
+    "cropname": "Soybean",
+    "diseaseId": "5f3fbe0e886a562f2a6b54e7",
+    "diseasename": "Leaf Eating Caterpillars",
+    "userId": {
+      "$oid": "6124d38bf1dd9400014d9a5e"
+    },
+    "lat": "19.6949724",
+    "lon": "78.6096632",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Ada",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629803513368"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a7fd4139045090db3ed5"
+    },
+    "cropdocId": {
+      "$oid": "612611a4da880700013dfcf0"
+    },
+    "imageUrl": "plantdoctor/328bca30-3f76-42d8-9db5-e79b409e8403.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbaa6886a562f2a6b54e4",
+    "diseasename": "Aphids",
+    "userId": {
+      "$oid": "6125f32579c51f0001fb8dca"
+    },
+    "lat": "19.659545349999366",
+    "lon": "78.69178266790502",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Jamini",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629884831741"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a7fe4139045090db3ed6"
+    },
+    "cropdocId": {
+      "$oid": "61261234d315f20001d8af4d"
+    },
+    "imageUrl": "plantdoctor/40dbfd27-1a50-4b84-8773-5e86c6589f60.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbaa6886a562f2a6b54e4",
+    "diseasename": "Aphids",
+    "userId": {
+      "$oid": "6125f32579c51f0001fb8dca"
+    },
+    "lat": "19.659532728199757",
+    "lon": "78.68541940799821",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Jamini",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629884975933"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a8194139045090db3ef7"
+    },
+    "cropdocId": {
+      "$oid": "612626f6b305be000192a719"
+    },
+    "imageUrl": "plantdoctor/8860b426-498e-4d3c-8144-8c9ec30f6f74.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f493f35cf7c660d284c080a",
+    "diseasename": "Chlorosis (Yellowing)",
+    "userId": {
+      "$oid": "6125f32579c51f0001fb8dca"
+    },
+    "lat": "19.651171655594002",
+    "lon": "78.69612377862641",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Jamini",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629890288293"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a81a4139045090db3ef8"
+    },
+    "cropdocId": {
+      "$oid": "6126271af9ed710001ba3db6"
+    },
+    "imageUrl": "plantdoctor/8794af01-0042-4b49-a311-1a2d05a002eb.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f493f35cf7c660d284c080a",
+    "diseasename": "Chlorosis (Yellowing)",
+    "userId": {
+      "$oid": "6125f32579c51f0001fb8dca"
+    },
+    "lat": "19.651171655594002",
+    "lon": "78.69612377862641",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Jamini",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629890325482"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a8534139045090db3f3b"
+    },
+    "cropdocId": {
+      "$oid": "6126526dda880700013dfd0c"
+    },
+    "imageUrl": "plantdoctor/e0ece28d-e16d-483b-a4ca-842baa7ae812.JPEG",
+    "cropId": "6065980fd95c9b000154c521",
+    "cropname": "Ridge gourd",
+    "diseaseId": "5f61eb90602688768f46342b",
+    "diseasename": "Downy Mildew",
+    "userId": {
+      "$oid": "612650ef5b08f700017473c1"
+    },
+    "lat": "19.642640026307184",
+    "lon": "78.51273280153073",
+    "road": "Old NH7",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Mavala",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629901416989"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a8874139045090db3f78"
+    },
+    "cropdocId": {
+      "$oid": "6126ea67f9ed710001ba3ddc"
+    },
+    "imageUrl": "plantdoctor/3c11694c-55b4-4698-a1c1-6d6fcf53ee3b.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbaa6886a562f2a6b54e4",
+    "diseasename": "Aphids",
+    "userId": {
+      "$oid": "6126e896f1dd9400014d9ca9"
+    },
+    "lat": "19.5943718",
+    "lon": "78.801053",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Lokari K",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629940323132"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a8d94139045090db3fdb"
+    },
+    "cropdocId": {
+      "$oid": "61271cf7f9ed710001ba3df8"
+    },
+    "imageUrl": "plantdoctor/a5062276-1b91-4644-8b97-ffcd3fb944f4.JPEG",
+    "cropId": "60dd71454a31b4000124cdf1",
+    "cropname": "Red Gram (Pigeon Pea)",
+    "diseaseId": "5f3fbe0e886a562f2a6b54e7",
+    "diseasename": "Leaf Eating Caterpillars",
+    "userId": {
+      "$oid": "612650ef5b08f700017473c1"
+    },
+    "lat": "19.620624951031818",
+    "lon": "78.50333977688987",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Seethagondi",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629953268344"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a9734139045090db4093"
+    },
+    "cropdocId": {
+      "$oid": "6127815cda880700013dfd6a"
+    },
+    "imageUrl": "plantdoctor/29e533df-11e0-4b45-bacf-e01e13f683eb.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbbf5886a562f2a6b54e5",
+    "diseasename": "Leaf hoppers (Plant hoppers)",
+    "userId": {
+      "$oid": "6126edcaf1dd9400014d9caf"
+    },
+    "lat": "19.20788398488511",
+    "lon": "78.42762201964851",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Lingatla",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629978967072"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173ab054139045090db4277"
+    },
+    "cropdocId": {
+      "$oid": "6129976b9802fd00013a4b24"
+    },
+    "imageUrl": "plantdoctor/0743ac9d-397f-41c8-848e-dce2208fcc76.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "60f135d20480ca0001ae7bb5"
+    },
+    "lat": "19.72425129980969",
+    "lon": "78.73574471014999",
+    "road": "NH353B",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Ballori",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1630115685526"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173ab074139045090db427a"
+    },
+    "cropdocId": {
+      "$oid": "612997d323a67700013caf52"
+    },
+    "imageUrl": "plantdoctor/2fc14440-6a62-4807-be1a-fda53274baeb.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "60f135d20480ca0001ae7bb5"
+    },
+    "lat": "19.72425129980969",
+    "lon": "78.73574471014999",
+    "road": "NH353B",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Ballori",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1630115789989"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173b01c4139045090db4891"
+    },
+    "cropdocId": {
+      "$oid": "612ee8d7686ea90001ae94d4"
+    },
+    "imageUrl": "plantdoctor/8b4f0949-7861-49b7-9f4a-5e06a08baa26.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f3fc54b886a562f2a6b54ef",
+    "diseasename": "Late blight",
+    "userId": {
+      "$oid": "61064230f1dd9400014d78af"
+    },
+    "lat": "19.523447578041015",
+    "lon": "78.56678828953747",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Lendi Guda",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1630464213048"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173b01e4139045090db4893"
+    },
+    "cropdocId": {
+      "$oid": "612ee93d7720730001696a18"
+    },
+    "imageUrl": "plantdoctor/d4ab60b6-d3a8-49e2-aa84-b023d573e8db.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f4409e3611a1212e280d660",
+    "diseasename": "Bacterial wilt/sourthern bacterial blight disease",
+    "userId": {
+      "$oid": "61064230f1dd9400014d78af"
+    },
+    "lat": "19.523447578041015",
+    "lon": "78.56678828953747",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Lendi Guda",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1630464314756"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173b01f4139045090db4894"
+    },
+    "cropdocId": {
+      "$oid": "612ee97723a67700013cb125"
+    },
+    "imageUrl": "plantdoctor/47bea7ba-9663-4a25-af75-008c92f05602.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f3fc54b886a562f2a6b54ef",
+    "diseasename": "Late blight",
+    "userId": {
+      "$oid": "61064230f1dd9400014d78af"
+    },
+    "lat": "19.523447578041015",
+    "lon": "78.56678828953747",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Lendi Guda",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1630464372602"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173b1fe4139045090db4ad2"
+    },
+    "cropdocId": {
+      "$oid": "6130c3fc686ea90001ae9586"
+    },
+    "imageUrl": "plantdoctor/89b7ffb5-bc31-4551-b790-7ebe5927a149.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f493f35cf7c660d284c080a",
+    "diseasename": "Chlorosis (Yellowing)",
+    "userId": {
+      "$oid": "60f56ed15b08f70001743fbc"
+    },
+    "lat": "19.296948486083277",
+    "lon": "78.29949774500372",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Kuchalapur",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1630585846374"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173b2814139045090db4b6f"
+    },
+    "cropdocId": {
+      "$oid": "6131900f9802fd00013a4dca"
+    },
+    "imageUrl": "plantdoctor/ddecefd0-5412-455a-a003-2af50290c022.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "60eeeb100480ca0001ae795a"
+    },
+    "lat": "19.4916222",
+    "lon": "78.4077046",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Tembi",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1630638091420"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173b34c4139045090db4c63"
+    },
+    "cropdocId": {
+      "$oid": "613220017720730001696b38"
+    },
+    "imageUrl": "plantdoctor/d5fcb04e-9502-404c-b65b-dbeca43d32b7.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fbaa6886a562f2a6b54e4",
+    "diseasename": "Aphids",
+    "userId": {
+      "$oid": "6128b2f4f1dd9400014d9f48"
+    },
+    "lat": "19.746698528517364",
+    "lon": "78.45601747630461",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Nipani",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1630674941228"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173b34d4139045090db4c64"
+    },
+    "cropdocId": {
+      "$oid": "61322034686ea90001ae9610"
+    },
+    "imageUrl": "plantdoctor/65c949e4-c0d8-45d6-bd24-0f604d7d0533.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fbaa6886a562f2a6b54e4",
+    "diseasename": "Aphids",
+    "userId": {
+      "$oid": "6128b2f4f1dd9400014d9f48"
+    },
+    "lat": "19.746698528517364",
+    "lon": "78.45601747630461",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Nipani",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1630674991941"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173b4854139045090db4dd9"
+    },
+    "cropdocId": {
+      "$oid": "61337208686ea90001ae967f"
+    },
+    "imageUrl": "plantdoctor/ce987c37-c883-4ec0-a1d8-624de8cf97fc.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "5fe6050947e29100018dc53a"
+    },
+    "lat": "19.8034512",
+    "lon": "78.4020209",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Dhanora",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1630761476747"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173b4a44139045090db4dfe"
+    },
+    "cropdocId": {
+      "$oid": "613394f4686ea90001ae9690"
+    },
+    "imageUrl": "plantdoctor/742e8818-6483-4dfc-b0c2-002a5a66da27.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "61339476f117b000016e5818"
+    },
+    "lat": "19.64119942184503",
+    "lon": "78.38795647425627",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Talamadugu",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1630770414636"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173b5754139045090db4ef8"
+    },
+    "cropdocId": {
+      "$oid": "6134894523a67700013cb2f7"
+    },
+    "imageUrl": "plantdoctor/bec6300e-e0cf-4f40-92b4-cc39e4a34ac9.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f493f35cf7c660d284c080a",
+    "diseasename": "Chlorosis (Yellowing)",
+    "userId": {
+      "$oid": "612b13e2a5dec90001f1fa05"
+    },
+    "lat": "19.3969503",
+    "lon": "78.5058481",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Navagaon",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1630832960447"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173b5764139045090db4efa"
+    },
+    "cropdocId": {
+      "$oid": "61348a5d686ea90001ae96e3"
+    },
+    "imageUrl": "plantdoctor/366a70d2-cbf7-4caf-8b4b-7fdd5488040d.JPEG",
+    "cropId": "5ebd7762bcc00904187a00be",
+    "cropname": "Beans",
+    "diseaseId": "5f3fbe0e886a562f2a6b54e7",
+    "diseasename": "Leaf Eating Caterpillars",
+    "userId": {
+      "$oid": "612b13e2a5dec90001f1fa05"
+    },
+    "lat": "19.368718657284873",
+    "lon": "78.49517954239396",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Mankapur",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1630833240931"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173bba24139045090db5616"
+    },
+    "cropdocId": {
+      "$oid": "613b0f34686ea90001ae9922"
+    },
+    "imageUrl": "plantdoctor/46c57a41-97e6-4ed9-9ca4-73ceae45bb9e.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "612b8acef117b000016e4b4b"
+    },
+    "lat": "19.641568879590274",
+    "lon": "78.31471106737165",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Kosai",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631260463386"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173bdb94139045090db5879"
+    },
+    "cropdocId": {
+      "$oid": "613ce281686ea90001ae99db"
+    },
+    "imageUrl": "plantdoctor/963c8049-7ab9-4004-ada7-e51a24dd94a0.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "6128b2f4f1dd9400014d9f48"
+    },
+    "lat": "19.74668525504795",
+    "lon": "78.45602924171446",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Nipani",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631380093857"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173bdea4139045090db58b3"
+    },
+    "cropdocId": {
+      "$oid": "613d7d4a686ea90001ae99ec"
+    },
+    "imageUrl": "plantdoctor/59d3772d-0395-4b81-a6dc-9ba2f2b43bb2.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f4409e3611a1212e280d660",
+    "diseasename": "Bacterial wilt/sourthern bacterial blight disease",
+    "userId": {
+      "$oid": "61064230f1dd9400014d78af"
+    },
+    "lat": "19.524898161714084",
+    "lon": "78.5627338228703",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Sitharam Guda",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631419720063"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173bdeb4139045090db58b4"
+    },
+    "cropdocId": {
+      "$oid": "613d7d85686ea90001ae99ed"
+    },
+    "imageUrl": "plantdoctor/e3e8869f-f989-464b-90f6-68cc7041a22a.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f4409e3611a1212e280d660",
+    "diseasename": "Bacterial wilt/sourthern bacterial blight disease",
+    "userId": {
+      "$oid": "61064230f1dd9400014d78af"
+    },
+    "lat": "19.524898161714084",
+    "lon": "78.5627338228703",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Sitharam Guda",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631419778964"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173bf0c4139045090db59fe"
+    },
+    "cropdocId": {
+      "$oid": "613eb8479802fd00013a522b"
+    },
+    "imageUrl": "plantdoctor/692c74fb-3dcc-4e83-888c-b3487b9210b3.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "6088cbb052d19700014d4ea7",
+    "diseasename": "Alternaria leaf spot",
+    "userId": {
+      "$oid": "6128b2f4f1dd9400014d9f48"
+    },
+    "lat": "19.746698528517364",
+    "lon": "78.45601747630461",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Nipani",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631500355419"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173bf0d4139045090db59ff"
+    },
+    "cropdocId": {
+      "$oid": "613eb867686ea90001ae9a4e"
+    },
+    "imageUrl": "plantdoctor/2c2761f4-0c5b-4e29-bfe5-1697290f0120.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "6088cbb052d19700014d4ea7",
+    "diseasename": "Alternaria leaf spot",
+    "userId": {
+      "$oid": "6128b2f4f1dd9400014d9f48"
+    },
+    "lat": "19.746698528517364",
+    "lon": "78.45601747630461",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Nipani",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631500387402"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173bf5c4139045090db5a5e"
+    },
+    "cropdocId": {
+      "$oid": "613f01679802fd00013a5249"
+    },
+    "imageUrl": "plantdoctor/ff95b6b7-853f-47e7-842a-fb74e454f5a0.JPEG",
+    "cropId": "6107889d0d58ec00019dbc04",
+    "cropname": "Turmeric",
+    "diseaseId": "5f440909611a1212e280d65f",
+    "diseasename": "Anthracnose",
+    "userId": {
+      "$oid": "61339476f117b000016e5818"
+    },
+    "lat": "19.670716670297708",
+    "lon": "78.53154814265352",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "Adilabad",
+    "village": "",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631519073318"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173c0294139045090db5b50"
+    },
+    "cropdocId": {
+      "$oid": "614010c87720730001696f92"
+    },
+    "imageUrl": "plantdoctor/d5b4b359-40fe-4bed-8f87-bba142a0a942.JPEG",
+    "cropId": "5f68a9f680300e5cb8be89c4",
+    "cropname": "Other",
+    "diseaseId": "5f3fbe0e886a562f2a6b54e7",
+    "diseasename": "Leaf Eating Caterpillars",
+    "userId": {
+      "$oid": "61400fd785e6500001f15fd0"
+    },
+    "lat": "19.495327983212917",
+    "lon": "78.41808010436164",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Darampuri",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631588547221"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173c19c4139045090db5d0a"
+    },
+    "cropdocId": {
+      "$oid": "614181dc686ea90001ae9b5c"
+    },
+    "imageUrl": "plantdoctor/6e809932-a93a-4537-b164-aac137108811.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fbe69886a562f2a6b54e8",
+    "diseasename": "Fruit Borer",
+    "userId": {
+      "$oid": "61258dd75b08f7000174725f"
+    },
+    "lat": "19.69464986736154",
+    "lon": "78.50227063134567",
+    "road": "Adilabad Bypass",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Pochara",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631683028635"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173c19d4139045090db5d0b"
+    },
+    "cropdocId": {
+      "$oid": "614181fa23a67700013cb75c"
+    },
+    "imageUrl": "plantdoctor/c563049c-d9ac-4f8c-a78b-fb34babeaec7.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fbe69886a562f2a6b54e8",
+    "diseasename": "Fruit Borer",
+    "userId": {
+      "$oid": "61258dd75b08f7000174725f"
+    },
+    "lat": "19.69464986736154",
+    "lon": "78.50227063134567",
+    "road": "Adilabad Bypass",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Pochara",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631683059006"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173c19e4139045090db5d0c"
+    },
+    "cropdocId": {
+      "$oid": "6141822223a67700013cb75d"
+    },
+    "imageUrl": "plantdoctor/fbf46973-78c3-4ae7-8833-838a71f1aadf.JPEG",
+    "cropId": "5ebd78e2bcc00904187a00c4",
+    "cropname": "Brinjal",
+    "diseaseId": "5f60d817602688768f463424",
+    "diseasename": "BRINJAL Fruit and Shoot Borer",
+    "userId": {
+      "$oid": "61258dd75b08f7000174725f"
+    },
+    "lat": "19.69464986736154",
+    "lon": "78.50227063134567",
+    "road": "Adilabad Bypass",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Pochara",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631683101979"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173c5294139045090db614a"
+    },
+    "cropdocId": {
+      "$oid": "614496be7e06f7000187036e"
+    },
+    "imageUrl": "plantdoctor/a1b6da0a-e423-4d92-95d0-7edc9c297e9a.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f3fc4b1886a562f2a6b54ed",
+    "diseasename": "Early blight",
+    "userId": {
+      "$oid": "61064230f1dd9400014d78af"
+    },
+    "lat": "19.5221086",
+    "lon": "78.5672602",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Lendi Guda",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631884986708"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173c52a4139045090db614b"
+    },
+    "cropdocId": {
+      "$oid": "614496d6044d8900013f9f1b"
+    },
+    "imageUrl": "plantdoctor/3d9b2163-28da-456a-a888-40007cbb756e.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f3fc4b1886a562f2a6b54ed",
+    "diseasename": "Early blight",
+    "userId": {
+      "$oid": "61064230f1dd9400014d78af"
+    },
+    "lat": "19.5221086",
+    "lon": "78.5672602",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Lendi Guda",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631885011553"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173c5784139045090db61a9"
+    },
+    "cropdocId": {
+      "$oid": "61455682044d8900013f9f32"
+    },
+    "imageUrl": "plantdoctor/d9319b92-548c-45be-9801-9ed86b0ad39e.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "6145563ef117b000016e701b"
+    },
+    "lat": "19.656112493849818",
+    "lon": "78.66495916904283",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Kanpa(Medi Guda) Road Side",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631934075390"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173c57c4139045090db61ae"
+    },
+    "cropdocId": {
+      "$oid": "614558727e06f70001870390"
+    },
+    "imageUrl": "plantdoctor/dd015d4e-758d-49e2-a842-b7692c6a2d5b.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "6145563ef117b000016e701b"
+    },
+    "lat": "19.655277",
+    "lon": "78.6702745",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Kanpa(Medi Guda) Road Side",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631934572568"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173c6d14139045090db634a"
+    },
+    "cropdocId": {
+      "$oid": "6146c9f871215200016d5395"
+    },
+    "imageUrl": "plantdoctor/70171fff-815c-4259-a9d0-731a744be3aa.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f440909611a1212e280d65f",
+    "diseasename": "Anthracnose",
+    "userId": {
+      "$oid": "6146c313a5dec90001f22240"
+    },
+    "lat": "19.60258894822826",
+    "lon": "78.57711010900917",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1632029173072"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173ca7d4139045090db67af"
+    },
+    "cropdocId": {
+      "$oid": "614a9d8571215200016d54d0"
+    },
+    "imageUrl": "plantdoctor/62bdc9da-737f-430e-86d4-10ad92eea076.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "5fe6050947e29100018dc53a"
+    },
+    "lat": "19.8034606",
+    "lon": "78.4010372",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Dhanora",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1632279935795"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173ca7d4139045090db67b0"
+    },
+    "cropdocId": {
+      "$oid": "614a9daca579a900017623a8"
+    },
+    "imageUrl": "plantdoctor/c12269be-5f9e-4748-950e-facd5429289a.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbbf5886a562f2a6b54e5",
+    "diseasename": "Leaf hoppers (Plant hoppers)",
+    "userId": {
+      "$oid": "612e2d0c657c6c000169ba80"
+    },
+    "lat": "19.5659576",
+    "lon": "78.857323",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1632279971125"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173d4f44139045090db745c"
+    },
+    "cropdocId": {
+      "$oid": "61570a44baa8040001631d2e"
+    },
+    "imageUrl": "plantdoctor/40b60571-4ba9-4514-adba-2118d857aacb.JPEG",
+    "cropId": "5efc451f5d6eff62b068c9e9",
+    "cropname": "Paddy",
+    "diseaseId": "609a88094ab77a0001cf5db3",
+    "diseasename": "Sheath blight",
+    "userId": {
+      "$oid": "6156e184f117b000016e81a3"
+    },
+    "lat": "19.0428506",
+    "lon": "78.6490506",
+    "road": "NH61",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Khanapur",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1633094209173"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173d56c4139045090db74f3"
+    },
+    "cropdocId": {
+      "$oid": "6157f456baa8040001631d62"
+    },
+    "imageUrl": "plantdoctor/8def1035-dffd-4ee7-b800-5ee25f2bff74.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbbf5886a562f2a6b54e5",
+    "diseasename": "Leaf hoppers (Plant hoppers)",
+    "userId": {
+      "$oid": "612b8acef117b000016e4b4b"
+    },
+    "lat": "19.64182078602358",
+    "lon": "78.32419349572817",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Dehegaon",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1633154129422"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173d57c4139045090db7507"
+    },
+    "cropdocId": {
+      "$oid": "615802cdb4c87b000182e9d2"
+    },
+    "imageUrl": "plantdoctor/3678699d-002a-4410-b614-61466c4c0c00.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbe0e886a562f2a6b54e7",
+    "diseasename": "Leaf Eating Caterpillars",
+    "userId": {
+      "$oid": "6158024e85e6500001f17992"
+    },
+    "lat": "19.71730825172537",
+    "lon": "78.77364198790546",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Burhanpur(D)",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1633157833587"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173d6f24139045090db76cd"
+    },
+    "cropdocId": {
+      "$oid": "6159c1213d5a7d0001658880"
+    },
+    "imageUrl": "plantdoctor/9cd4fe57-17ff-4503-9537-f6bc6f377f01.JPEG",
+    "cropId": "60efe50f06b63b0001785544",
+    "cropname": "Pole beans",
+    "diseaseId": "5f3f8b53886a562f2a6b54df",
+    "diseasename": "Red Spider mite",
+    "userId": {
+      "$oid": "611f0bae79c51f0001fb8594"
+    },
+    "lat": "19.50060771377985",
+    "lon": "78.34619769745514",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Jatarla",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1633272094136"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173d6f34139045090db76ce"
+    },
+    "cropdocId": {
+      "$oid": "6159c13cb4c87b000182ea58"
+    },
+    "imageUrl": "plantdoctor/bbff280b-e4c0-4ca5-b5d7-1b4bdf6b224d.JPEG",
+    "cropId": "60efe50f06b63b0001785544",
+    "cropname": "Pole beans",
+    "diseaseId": "5f3f8b53886a562f2a6b54df",
+    "diseasename": "Red Spider mite",
+    "userId": {
+      "$oid": "611f0bae79c51f0001fb8594"
+    },
+    "lat": "19.50060771377985",
+    "lon": "78.34619769745514",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Jatarla",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1633272120818"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173d7d34139045090db77d7"
+    },
+    "cropdocId": {
+      "$oid": "615ae5b2a0f4c80001632458"
+    },
+    "imageUrl": "plantdoctor/843e4f14-4fec-42d3-8cd6-8b380ed65ea8.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f4407f4611a1212e280d65e",
+    "diseasename": "Powdery Mildew",
+    "userId": {
+      "$oid": "615941c6f117b000016e83e9"
+    },
+    "lat": "19.60179131577837",
+    "lon": "78.76577004394956",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Sangvi",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1633346989288"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173d8b14139045090db78e2"
+    },
+    "cropdocId": {
+      "$oid": "615c1305b4c87b000182eb1d"
+    },
+    "imageUrl": "plantdoctor/4ac3bb41-f811-4ed4-9a39-e1f8c42319a3.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "60a7933b125498000196a405",
+    "diseasename": "Cercospora Leaf Spot",
+    "userId": {
+      "$oid": "6145563ef117b000016e701b"
+    },
+    "lat": "19.656741785338312",
+    "lon": "78.67090719610006",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Kanpa(Medi Guda) Road Side",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1633424125851"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173d8b44139045090db78e6"
+    },
+    "cropdocId": {
+      "$oid": "615c1496baa8040001631ea4"
+    },
+    "imageUrl": "plantdoctor/8dc4a5f2-eab0-4679-b32c-e8a7a29a2055.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbaa6886a562f2a6b54e4",
+    "diseasename": "Aphids",
+    "userId": {
+      "$oid": "6145563ef117b000016e701b"
+    },
+    "lat": "19.656322",
+    "lon": "78.6647604",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Kanpa(Medi Guda) Road Side",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1633424529175"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173d8b54139045090db78e8"
+    },
+    "cropdocId": {
+      "$oid": "615c14b93d5a7d0001658923"
+    },
+    "imageUrl": "plantdoctor/e8d231db-f670-443b-bb8d-11b7a6642f9c.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbaa6886a562f2a6b54e4",
+    "diseasename": "Aphids",
+    "userId": {
+      "$oid": "6145563ef117b000016e701b"
+    },
+    "lat": "19.656741785338312",
+    "lon": "78.67090719610006",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Kanpa(Medi Guda) Road Side",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1633424563737"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173d8b74139045090db78ea"
+    },
+    "cropdocId": {
+      "$oid": "615c14e8baa8040001631ea5"
+    },
+    "imageUrl": "plantdoctor/0b04f3e4-7b3b-48c1-9c66-8baa8bea4ed4.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "60a7933b125498000196a405",
+    "diseasename": "Cercospora Leaf Spot",
+    "userId": {
+      "$oid": "6145563ef117b000016e701b"
+    },
+    "lat": "19.656741785338312",
+    "lon": "78.67090719610006",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Kanpa(Medi Guda) Road Side",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1633424611862"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173d8ef4139045090db792e"
+    },
+    "cropdocId": {
+      "$oid": "615c36a23d5a7d0001658937"
+    },
+    "imageUrl": "plantdoctor/f50b2989-d11d-4480-8cb6-90a7a7055692.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "61258dd75b08f7000174725f"
+    },
+    "lat": "19.692392452017888",
+    "lon": "78.50203259116847",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Pochara",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1633433246517"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173dc7e4139045090db7cd8"
+    },
+    "cropdocId": {
+      "$oid": "6160f4e9baa8040001631ffe"
+    },
+    "imageUrl": "plantdoctor/455e8f92-bc45-4c2a-8dee-564393f25ccd.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbbf5886a562f2a6b54e5",
+    "diseasename": "Leaf hoppers (Plant hoppers)",
+    "userId": {
+      "$oid": "615941c6f117b000016e83e9"
+    },
+    "lat": "19.6019474",
+    "lon": "78.7658685",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Sangvi",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1633744098968"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173dc834139045090db7cdc"
+    },
+    "cropdocId": {
+      "$oid": "6160f5f0b4c87b000182ec5d"
+    },
+    "imageUrl": "plantdoctor/e1bf46bb-ff27-420b-9d04-6504be83bac2.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbbf5886a562f2a6b54e5",
+    "diseasename": "Leaf hoppers (Plant hoppers)",
+    "userId": {
+      "$oid": "615941c6f117b000016e83e9"
+    },
+    "lat": "19.6019474",
+    "lon": "78.7658685",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Sangvi",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1633744364656"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173dc864139045090db7cde"
+    },
+    "cropdocId": {
+      "$oid": "6160f6a7a0f4c80001632621"
+    },
+    "imageUrl": "plantdoctor/a3bed76e-b19d-4a1d-8715-091b51dc7279.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbbf5886a562f2a6b54e5",
+    "diseasename": "Leaf hoppers (Plant hoppers)",
+    "userId": {
+      "$oid": "615941c6f117b000016e83e9"
+    },
+    "lat": "19.6019474",
+    "lon": "78.7658685",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Sangvi",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1633744547151"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173dddc4139045090db7e1a"
+    },
+    "cropdocId": {
+      "$oid": "616250c4baa8040001632066"
+    },
+    "imageUrl": "plantdoctor/31fad363-24d2-48b7-948f-c7353de9e2a7.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "60c2f396b96d0b0001b37022",
+    "diseasename": "Boll Rot",
+    "userId": {
+      "$oid": "615941c6f117b000016e83e9"
+    },
+    "lat": "19.6019474",
+    "lon": "78.7658685",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Sangvi",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1633833149264"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173ded54139045090db7ef7"
+    },
+    "cropdocId": {
+      "$oid": "61630506a0f4c800016326d9"
+    },
+    "imageUrl": "plantdoctor/730c33f1-8217-4ea4-9afe-f943e56fcc97.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "6088cbb052d19700014d4ea7",
+    "diseasename": "Alternaria leaf spot",
+    "userId": {
+      "$oid": "615d5aada5dec90001f236f1"
+    },
+    "lat": "19.784269108219156",
+    "lon": "78.66804323130674",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Bahadurpur",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1633879299532"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173ded74139045090db7ef9"
+    },
+    "cropdocId": {
+      "$oid": "61630579a0f4c800016326da"
+    },
+    "imageUrl": "plantdoctor/e2b11548-0f14-4f35-a01a-24a9e5f685a4.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fb9c3886a562f2a6b54e2",
+    "diseasename": "Whiteflies",
+    "userId": {
+      "$oid": "615d5aada5dec90001f236f1"
+    },
+    "lat": "19.785030244044943",
+    "lon": "78.6662915175281",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Bahadurpur",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1633879414758"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173ded94139045090db7efb"
+    },
+    "cropdocId": {
+      "$oid": "61630677baa80400016320b5"
+    },
+    "imageUrl": "plantdoctor/0d304785-da12-4d4b-b0dd-682191187e3d.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fb9c3886a562f2a6b54e2",
+    "diseasename": "Whiteflies",
+    "userId": {
+      "$oid": "615d5aada5dec90001f236f1"
+    },
+    "lat": "19.785030244044943",
+    "lon": "78.6662915175281",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Bahadurpur",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1633879666868"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173dfd94139045090db7fa9"
+    },
+    "cropdocId": {
+      "$oid": "616403923d5a7d0001658b73"
+    },
+    "imageUrl": "plantdoctor/d483cd34-c996-4a41-b5be-62b6ad98a050.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "6117a2425b08f7000174635f"
+    },
+    "lat": "19.2987522045153",
+    "lon": "78.40701319899422",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1633944462941"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173e01e4139045090db7fe5"
+    },
+    "cropdocId": {
+      "$oid": "61641fb53d5a7d0001658b82"
+    },
+    "imageUrl": "plantdoctor/eab3c6ff-0fd8-49c6-a442-f3aa7149fd05.JPEG",
+    "cropId": "5efc451f5d6eff62b068c9e9",
+    "cropname": "Paddy",
+    "diseaseId": "609a1231c21fd8000173b73b",
+    "diseasename": "Bacterial leaf blight (BLB)",
+    "userId": {
+      "$oid": "6140f9a785e6500001f161ad"
+    },
+    "lat": "18.844459",
+    "lon": "79.4790553",
+    "road": "NH63",
+    "suburb": "Krishna Colony",
+    "city_district": "",
+    "city": "",
+    "village": "Teegalpahad",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1633951665912"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173e0224139045090db7fe9"
+    },
+    "cropdocId": {
+      "$oid": "61642041b4c87b000182ed6a"
+    },
+    "imageUrl": "plantdoctor/e84dce87-f735-430a-9ca7-91a8fb727811.JPEG",
+    "cropId": "5efc451f5d6eff62b068c9e9",
+    "cropname": "Paddy",
+    "diseaseId": "609a1231c21fd8000173b73b",
+    "diseasename": "Bacterial leaf blight (BLB)",
+    "userId": {
+      "$oid": "6140f9a785e6500001f161ad"
+    },
+    "lat": "18.844459",
+    "lon": "79.4790553",
+    "road": "NH63",
+    "suburb": "Krishna Colony",
+    "city_district": "",
+    "city": "",
+    "village": "Teegalpahad",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1633951805027"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173e04c4139045090db8010"
+    },
+    "cropdocId": {
+      "$oid": "616428f63d5a7d0001658b8a"
+    },
+    "imageUrl": "plantdoctor/a8d20da1-d8ff-45a4-a802-d33b9ae4e4f1.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbbf5886a562f2a6b54e5",
+    "diseasename": "Leaf hoppers (Plant hoppers)",
+    "userId": {
+      "$oid": "6164269bf117b000016e8f70"
+    },
+    "lat": "19.6005527",
+    "lon": "78.7385571",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Dubba Guda",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1633954032479"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173e0ee4139045090db80a4"
+    },
+    "cropdocId": {
+      "$oid": "616531403d5a7d0001658bc5"
+    },
+    "imageUrl": "plantdoctor/f2fe9a87-8038-4829-9598-412ee1aa650f.JPEG",
+    "cropId": "60dd71454a31b4000124cdf1",
+    "cropname": "Red Gram (Pigeon Pea)",
+    "diseaseId": "5f3fbe0e886a562f2a6b54e7",
+    "diseasename": "Leaf Eating Caterpillars",
+    "userId": {
+      "$oid": "6145563ef117b000016e701b"
+    },
+    "lat": "19.655019280403387",
+    "lon": "78.6696143811912",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Kanpa(Medi Guda) Road Side",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1634021690544"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173e0ef4139045090db80a5"
+    },
+    "cropdocId": {
+      "$oid": "616531afbaa804000163214c"
+    },
+    "imageUrl": "plantdoctor/4a84a3cb-6f0b-4638-8556-220ba420efb0.JPEG",
+    "cropId": "60dd71454a31b4000124cdf1",
+    "cropname": "Red Gram (Pigeon Pea)",
+    "diseaseId": "5f3fbe0e886a562f2a6b54e7",
+    "diseasename": "Leaf Eating Caterpillars",
+    "userId": {
+      "$oid": "6145563ef117b000016e701b"
+    },
+    "lat": "19.655019280403387",
+    "lon": "78.6696143811912",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Kanpa(Medi Guda) Road Side",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1634021802333"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173e13f4139045090db80e7"
+    },
+    "cropdocId": {
+      "$oid": "61657222a0f4c8000163279e"
+    },
+    "imageUrl": "plantdoctor/e2d39860-55b7-47e6-b4e0-bf04803040c1.JPEG",
+    "cropId": "5efc451f5d6eff62b068c9e9",
+    "cropname": "Paddy",
+    "diseaseId": "609aadc4b6c98e0001b34572",
+    "diseasename": "Rice Blast Disease",
+    "userId": {
+      "$oid": "6140f9a785e6500001f161ad"
+    },
+    "lat": "18.844459",
+    "lon": "79.4790553",
+    "road": "NH63",
+    "suburb": "Krishna Colony",
+    "city_district": "",
+    "city": "",
+    "village": "Teegalpahad",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1634038302016"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173e3354139045090db826c"
+    },
+    "cropdocId": {
+      "$oid": "6167b4b1baa80400016321f5"
+    },
+    "imageUrl": "plantdoctor/308c02e8-37a4-4fe6-b571-6534b38b007c.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "615d5aada5dec90001f236f1"
+    },
+    "lat": "19.787361118760714",
+    "lon": "78.67420286978557",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Bahadurpur",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1634186413797"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173e7674139045090db8612"
+    },
+    "cropdocId": {
+      "$oid": "616bcc43baa804000163234b"
+    },
+    "imageUrl": "plantdoctor/836f111b-1031-483f-9bf9-290c4c4dbdbd.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fc2b0886a562f2a6b54e9",
+    "diseasename": "Septoria leaf spot",
+    "userId": {
+      "$oid": "615941c6f117b000016e83e9"
+    },
+    "lat": "19.5943718",
+    "lon": "78.801053",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Lokari K",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1634454590925"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173e7684139045090db8613"
+    },
+    "cropdocId": {
+      "$oid": "616bcc6fb4c87b000182efac"
+    },
+    "imageUrl": "plantdoctor/86cbd517-8e20-4677-bf87-039121b78cd8.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "60a7933b125498000196a405",
+    "diseasename": "Cercospora Leaf Spot",
+    "userId": {
+      "$oid": "615941c6f117b000016e83e9"
+    },
+    "lat": "19.5943718",
+    "lon": "78.801053",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Lokari K",
+    "county": "",
+    "district": "Adilabad",
+    "state": "Telangana",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1634454635710"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173563f4139045090dadd16"
+    },
+    "cropdocId": {
+      "$oid": "609f29f55334470001a4dfc6"
+    },
+    "imageUrl": "plantdoctor/26164f93-3076-46eb-bb78-d0f80f67141c.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f440bd4611a1212e280d662",
+    "diseasename": "Leaf curl virus",
+    "userId": {
+      "$oid": "609f28ecf3e1720001f26167"
+    },
+    "lat": "23.803476820218734",
+    "lon": "76.23131611139974",
+    "road": "SH17",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Nalkhera",
+    "county": "Nalkheda Tahsil",
+    "district": "Agar Malwa",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1621043695007"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173681c4139045090daf254"
+    },
+    "cropdocId": {
+      "$oid": "60be22117ab70e00013371a4"
+    },
+    "imageUrl": "plantdoctor/e15f7dbe-9132-4343-932a-202894a31cf5.JPEG",
+    "cropId": "60659bfe8cffea00012bd861",
+    "cropname": "Marigold",
+    "diseaseId": "5f4407f4611a1212e280d65e",
+    "diseasename": "Powdery Mildew",
+    "userId": {
+      "$oid": "60be20eaf95d9c0001d14058"
+    },
+    "lat": "23.69970755",
+    "lon": "76.06556661303921",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Agar Tahsil",
+    "district": "Agar Malwa",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1623073294379"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617381eb4139045090db1120"
+    },
+    "cropdocId": {
+      "$oid": "60eecea6e893940001774063"
+    },
+    "imageUrl": "plantdoctor/8811ccb0-f695-41c9-a06e-8c00e1735d69.JPEG",
+    "cropId": "5f68a9f680300e5cb8be89c4",
+    "cropname": "Other",
+    "diseaseId": "5f440bd4611a1212e280d662",
+    "diseasename": "Leaf curl virus",
+    "userId": {
+      "$oid": "60edc0335b08f70001743789"
+    },
+    "lat": "23.841315691690877",
+    "lon": "76.21802078216325",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Nalkhera",
+    "county": "Nalkheda Tahsil",
+    "district": "Agar Malwa",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1626263202508"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61739a004139045090db2e15"
+    },
+    "cropdocId": {
+      "$oid": "611280beef39a20001b0a2ec"
+    },
+    "imageUrl": "plantdoctor/cc5f7c9a-4429-4647-b0ec-1257ae408cb9.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f3fc4b1886a562f2a6b54ed",
+    "diseasename": "Early blight",
+    "userId": {
+      "$oid": "6034f663ba9b3b000100fe85"
+    },
+    "lat": "23.69970755",
+    "lon": "76.06556661303921",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Agar Tahsil",
+    "district": "Agar Malwa",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1628602553752"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61739a014139045090db2e16"
+    },
+    "cropdocId": {
+      "$oid": "611280fa5263c100017b1fd6"
+    },
+    "imageUrl": "plantdoctor/042d26c1-1988-4197-b9e2-ea4887fa8941.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f3fc4b1886a562f2a6b54ed",
+    "diseasename": "Early blight",
+    "userId": {
+      "$oid": "6034f663ba9b3b000100fe85"
+    },
+    "lat": "23.69970755",
+    "lon": "76.06556661303921",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Agar Tahsil",
+    "district": "Agar Malwa",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1628602614400"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61739a024139045090db2e17"
+    },
+    "cropdocId": {
+      "$oid": "611281c5308c670001a65a33"
+    },
+    "imageUrl": "plantdoctor/d4554509-2d9c-4d5a-9d8f-6526941a3c1c.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f3fc4f3886a562f2a6b54ee",
+    "diseasename": "Bacterial speck/spot",
+    "userId": {
+      "$oid": "6034f663ba9b3b000100fe85"
+    },
+    "lat": "23.69970755",
+    "lon": "76.06556661303921",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Agar Tahsil",
+    "district": "Agar Malwa",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1628602817982"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61739c194139045090db3097"
+    },
+    "cropdocId": {
+      "$oid": "6115312b7c4b780001ebf1ab"
+    },
+    "imageUrl": "plantdoctor/6bb31c14-6569-4563-967b-7fa117c3df0c.JPEG",
+    "cropId": "5f68a9f680300e5cb8be89c4",
+    "cropname": "Other",
+    "diseaseId": "60c9ea23dc5aaf000183d904",
+    "diseasename": "Root grubs (White grubs)",
+    "userId": {
+      "$oid": "5f4f44d271a0b4478c553236"
+    },
+    "lat": "23.69970755",
+    "lon": "76.06556661303921",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Agar Tahsil",
+    "district": "Agar Malwa",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1628778789386"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61739c194139045090db3098"
+    },
+    "cropdocId": {
+      "$oid": "6115313b7c4b780001ebf1ac"
+    },
+    "imageUrl": "plantdoctor/9a576378-9ed5-47db-88ee-7f19f6147279.JPEG",
+    "cropId": "5f68a9f680300e5cb8be89c4",
+    "cropname": "Other",
+    "diseaseId": "60c9ea23dc5aaf000183d904",
+    "diseasename": "Root grubs (White grubs)",
+    "userId": {
+      "$oid": "5f4f44d271a0b4478c553236"
+    },
+    "lat": "23.69970755",
+    "lon": "76.06556661303921",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Agar Tahsil",
+    "district": "Agar Malwa",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1628778804697"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a2314139045090db37e1"
+    },
+    "cropdocId": {
+      "$oid": "611e7dd29287d80001599d60"
+    },
+    "imageUrl": "plantdoctor/bbe1fbce-80b0-4f52-9857-53454898f6f2.JPEG",
+    "cropId": "5f647790e063f15aa034abc8",
+    "cropname": "Onion",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "5f4f44d271a0b4478c553236"
+    },
+    "lat": "23.7958583",
+    "lon": "76.054876",
+    "road": "NH552G",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Agar Tahsil",
+    "district": "Agar Malwa",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629388237249"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173b2bf4139045090db4bba"
+    },
+    "cropdocId": {
+      "$oid": "6131c65a23a67700013cb201"
+    },
+    "imageUrl": "plantdoctor/0b0ab690-bc26-447f-b3ae-377439e6e2b0.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f440a99611a1212e280d661",
+    "diseasename": "Fusarium Wilt disease",
+    "userId": {
+      "$oid": "6131c4cb657c6c000169bfe6"
+    },
+    "lat": "23.7127275",
+    "lon": "76.0176929",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Agar Tahsil",
+    "district": "Agar Malwa",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1630651990692"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173b83e4139045090db524a"
+    },
+    "cropdocId": {
+      "$oid": "61374ed69802fd00013a4fe6"
+    },
+    "imageUrl": "plantdoctor/363df325-8bf3-4b0a-ad87-51576d1bda7a.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f440bd4611a1212e280d662",
+    "diseasename": "Leaf curl virus",
+    "userId": {
+      "$oid": "6131c4cb657c6c000169bfe6"
+    },
+    "lat": "23.69970755",
+    "lon": "76.06556661303921",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Agar Tahsil",
+    "district": "Agar Malwa",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631014611639"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173b8404139045090db524c"
+    },
+    "cropdocId": {
+      "$oid": "61374eef23a67700013cb3f5"
+    },
+    "imageUrl": "plantdoctor/ee0d0c0a-c594-44e6-bdd0-41e9c282ebc2.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f440bd4611a1212e280d662",
+    "diseasename": "Leaf curl virus",
+    "userId": {
+      "$oid": "6131c4cb657c6c000169bfe6"
+    },
+    "lat": "23.69970755",
+    "lon": "76.06556661303921",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Agar Tahsil",
+    "district": "Agar Malwa",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631014634704"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173bfa04139045090db5aae"
+    },
+    "cropdocId": {
+      "$oid": "613f2c1923a67700013cb6a4"
+    },
+    "imageUrl": "plantdoctor/26b14b9c-ae42-4c03-a2f7-9bcb9e39919d.JPEG",
+    "cropId": "60caf46fd8ecf200011846c7",
+    "cropname": "Soybean",
+    "diseaseId": "5f440909611a1212e280d65f",
+    "diseasename": "Anthracnose",
+    "userId": {
+      "$oid": "613f26a0657c6c000169d3ba"
+    },
+    "lat": "23.787956299999998",
+    "lon": "76.25839099286276",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Nalkheda Tahsil",
+    "district": "Agar Malwa",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631530007239"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173bfa14139045090db5aaf"
+    },
+    "cropdocId": {
+      "$oid": "613f2d2a23a67700013cb6a5"
+    },
+    "imageUrl": "plantdoctor/2fdd40c4-9b41-44e5-87f6-3d1de38fdfe1.JPEG",
+    "cropId": "60caf46fd8ecf200011846c7",
+    "cropname": "Soybean",
+    "diseaseId": "5f493f35cf7c660d284c080a",
+    "diseasename": "Chlorosis (Yellowing)",
+    "userId": {
+      "$oid": "613f26a0657c6c000169d3ba"
+    },
+    "lat": "23.787956299999998",
+    "lon": "76.25839099286276",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Nalkheda Tahsil",
+    "district": "Agar Malwa",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631530278735"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173bfa14139045090db5ab0"
+    },
+    "cropdocId": {
+      "$oid": "613f2d54686ea90001ae9a87"
+    },
+    "imageUrl": "plantdoctor/f5b2e958-5884-4987-ab0c-606638de7da9.JPEG",
+    "cropId": "60caf46fd8ecf200011846c7",
+    "cropname": "Soybean",
+    "diseaseId": "5f493f35cf7c660d284c080a",
+    "diseasename": "Chlorosis (Yellowing)",
+    "userId": {
+      "$oid": "613f26a0657c6c000169d3ba"
+    },
+    "lat": "23.787956299999998",
+    "lon": "76.25839099286276",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Nalkheda Tahsil",
+    "district": "Agar Malwa",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631530316146"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617371014139045090dafce6"
+    },
+    "cropdocId": {
+      "$oid": "60cf7a429646f600014fc3f0"
+    },
+    "imageUrl": "plantdoctor/de57fa34-ddf0-47a3-b708-08c77a13974f.JPEG",
+    "cropId": "5ebd78e2bcc00904187a00c4",
+    "cropname": "Brinjal",
+    "diseaseId": "5f60d817602688768f463424",
+    "diseasename": "BRINJAL Fruit and Shoot Borer",
+    "userId": {
+      "$oid": "60cf79a1f95d9c0001d15251"
+    },
+    "lat": "26.942818036040432",
+    "lon": "77.81182733765756",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Kheragarh",
+    "district": "Agra",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1624209984569"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61739c8c4139045090db3124"
+    },
+    "cropdocId": {
+      "$oid": "6115fc729f1a930001f43168"
+    },
+    "imageUrl": "plantdoctor/c9ae7338-31b1-4249-b918-d7bd2cd91853.JPEG",
+    "cropId": "5ebd780cbcc00904187a00c0",
+    "cropname": "Capsicum",
+    "diseaseId": "5f3fbe0e886a562f2a6b54e7",
+    "diseasename": "Leaf Eating Caterpillars",
+    "userId": {
+      "$oid": "60cf79a1f95d9c0001d15251"
+    },
+    "lat": "26.955027768315425",
+    "lon": "77.79695843058504",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Kheragarh",
+    "district": "Agra",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1628830828195"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a89c4139045090db3f92"
+    },
+    "cropdocId": {
+      "$oid": "6126f413da880700013dfd24"
+    },
+    "imageUrl": "plantdoctor/00680bad-db6c-4837-9029-bdccb5d5e7b8.JPEG",
+    "cropId": "5f647790e063f15aa034abc8",
+    "cropname": "Onion",
+    "diseaseId": "5f3fc431886a562f2a6b54ec",
+    "diseasename": "Collar rot",
+    "userId": {
+      "$oid": "60ed00130480ca0001ae76c0"
+    },
+    "lat": "27.17320016599256",
+    "lon": "77.90652607113655",
+    "road": "Outer Ring Road",
+    "suburb": "",
+    "city_district": "",
+    "city": "Agra",
+    "village": "",
+    "county": "Agra",
+    "district": "Agra",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629942801411"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a8ee4139045090db3ff5"
+    },
+    "cropdocId": {
+      "$oid": "6127219bda880700013dfd3e"
+    },
+    "imageUrl": "plantdoctor/85b00f01-5bfb-4214-b6cd-6a9a02cdbdb0.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "60f3b14bf1dd9400014d6700"
+    },
+    "lat": "27.153158570788136",
+    "lon": "77.91503704238275",
+    "road": "Outer Ring Road",
+    "suburb": "",
+    "city_district": "",
+    "city": "Agra",
+    "village": "",
+    "county": "Agra",
+    "district": "Agra",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629954451480"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a98f4139045090db40b5"
+    },
+    "cropdocId": {
+      "$oid": "6127a0a0f9ed710001ba3e3e"
+    },
+    "imageUrl": "plantdoctor/cc322b85-e044-4901-9d25-2996de4b7b39.JPEG",
+    "cropId": "60786a01317478226826038c",
+    "cropname": "Cauliflower",
+    "diseaseId": "5f3fc37a886a562f2a6b54ea",
+    "diseasename": "Damping off/ Seedling Blight",
+    "userId": {
+      "$oid": "60cf79a1f95d9c0001d15251"
+    },
+    "lat": "26.96072282832578",
+    "lon": "77.78596041930854",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Kheragarh",
+    "district": "Agra",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629986972800"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a9904139045090db40b6"
+    },
+    "cropdocId": {
+      "$oid": "6127a0d8da880700013dfd75"
+    },
+    "imageUrl": "plantdoctor/96d1dee3-c3b9-4058-a855-baf138d20a56.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f440458611a1212e280d65c",
+    "diseasename": "Tomato Spotted Wilt Virus (TOSPOW Virus)",
+    "userId": {
+      "$oid": "60cf79a1f95d9c0001d15251"
+    },
+    "lat": "26.96072282832578",
+    "lon": "77.78596041930854",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Kheragarh",
+    "district": "Agra",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629987028035"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173b58c4139045090db4f14"
+    },
+    "cropdocId": {
+      "$oid": "61349cda7720730001696c04"
+    },
+    "imageUrl": "plantdoctor/94f0fa94-12e9-44c8-9eec-93139c0119b2.JPEG",
+    "cropId": "5ebd78e2bcc00904187a00c4",
+    "cropname": "Brinjal",
+    "diseaseId": "5f3fbbf5886a562f2a6b54e5",
+    "diseasename": "Leaf hoppers (Plant hoppers)",
+    "userId": {
+      "$oid": "61349346657c6c000169c4e0"
+    },
+    "lat": "27.103803901889215",
+    "lon": "78.0705649007606",
+    "road": "Shamsabad Road",
+    "suburb": "",
+    "city_district": "",
+    "city": "Agra",
+    "village": "",
+    "county": "Agra",
+    "district": "Agra",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1630837974780"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173bad74139045090db554d"
+    },
+    "cropdocId": {
+      "$oid": "613a00e99802fd00013a50be"
+    },
+    "imageUrl": "plantdoctor/449d49a8-5b5a-4e83-a8c7-f923a900a769.JPEG",
+    "cropId": "5efc451f5d6eff62b068c9e9",
+    "cropname": "Paddy",
+    "diseaseId": "6098b1962c61990001c60734",
+    "diseasename": "Rice stem borer",
+    "userId": {
+      "$oid": "61324e06657c6c000169c155"
+    },
+    "lat": "27.14527365",
+    "lon": "77.73300219882807",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Kiraoli",
+    "district": "Agra",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631191269682"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173bbc44139045090db563f"
+    },
+    "cropdocId": {
+      "$oid": "613b3149686ea90001ae992c"
+    },
+    "imageUrl": "plantdoctor/24ce8fe0-fd1a-4ee5-9311-1ac273758250.JPEG",
+    "cropId": "5ebd78e2bcc00904187a00c4",
+    "cropname": "Brinjal",
+    "diseaseId": "5f60d817602688768f463424",
+    "diseasename": "BRINJAL Fruit and Shoot Borer",
+    "userId": {
+      "$oid": "61349346657c6c000169c4e0"
+    },
+    "lat": "27.090977633262018",
+    "lon": "78.06653733370644",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "Agra",
+    "village": "",
+    "county": "Agra",
+    "district": "Agra",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631269190190"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173c7ad4139045090db644f"
+    },
+    "cropdocId": {
+      "$oid": "6147dd69044d8900013fa002"
+    },
+    "imageUrl": "plantdoctor/c3be8200-744a-452f-a61f-c5ed7cdde393.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f440bd4611a1212e280d662",
+    "diseasename": "Leaf curl virus",
+    "userId": {
+      "$oid": "60a364cc78324c000168617c"
+    },
+    "lat": "27.09954397222955",
+    "lon": "77.86380465002213",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Kiraoli",
+    "district": "Agra",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1632099686872"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173c9a94139045090db66b2"
+    },
+    "cropdocId": {
+      "$oid": "6149accf044d8900013fa0aa"
+    },
+    "imageUrl": "plantdoctor/30470374-2096-478b-8314-4daf6a3ecf52.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fbe0e886a562f2a6b54e7",
+    "diseasename": "Leaf Eating Caterpillars",
+    "userId": {
+      "$oid": "60a364cc78324c000168617c"
+    },
+    "lat": "27.09836684244288",
+    "lon": "77.86561252734565",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Kiraoli",
+    "district": "Agra",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1632218316550"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173c9ab4139045090db66b4"
+    },
+    "cropdocId": {
+      "$oid": "6149acfa71215200016d547f"
+    },
+    "imageUrl": "plantdoctor/fdd6f74c-0648-4629-8ed4-acab2e68a38d.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "60a364cc78324c000168617c"
+    },
+    "lat": "27.126886431930085",
+    "lon": "77.83092274023343",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Mahaur",
+    "county": "Kiraoli",
+    "district": "Agra",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1632218358962"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617339614139045090dabaff"
+    },
+    "cropdocId": {
+      "$oid": "605558220cd30f00015f9647"
+    },
+    "imageUrl": "plantdoctor/62b4421f-6c89-4266-a336-f1b188785886.JPEG",
+    "cropId": "5f68a9f680300e5cb8be89c4",
+    "cropname": "Other",
+    "diseaseId": "5f3fbe0e886a562f2a6b54e7",
+    "diseasename": "Leaf Eating Caterpillars",
+    "userId": {
+      "$oid": "5fbd2a0ccd15bf00013f6c2d"
+    },
+    "lat": "27.4528564507292",
+    "lon": "77.75066849668714",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Hayatpur",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1616205855359"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61733eeb4139045090dac193"
+    },
+    "cropdocId": {
+      "$oid": "606308070cd30f00015f981a"
+    },
+    "imageUrl": "plantdoctor/a2e8bb56-a601-4dca-8154-b85b5a727427.JPEG",
+    "cropId": "5ebd78e2bcc00904187a00c4",
+    "cropname": "Brinjal",
+    "diseaseId": "5f3fbe0e886a562f2a6b54e7",
+    "diseasename": "Leaf Eating Caterpillars",
+    "userId": {
+      "$oid": "603c3e0f95a7cf0001ebe1f6"
+    },
+    "lat": "27.723261995848617",
+    "lon": "77.49850471469823",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1617102848299"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61733eec4139045090dac194"
+    },
+    "cropdocId": {
+      "$oid": "606308280cd30f00015f981b"
+    },
+    "imageUrl": "plantdoctor/2d3f7fce-a083-4c2f-8128-2a939d5d3dd3.JPEG",
+    "cropId": "5ebd78e2bcc00904187a00c4",
+    "cropname": "Brinjal",
+    "diseaseId": "5f3fbe0e886a562f2a6b54e7",
+    "diseasename": "Leaf Eating Caterpillars",
+    "userId": {
+      "$oid": "603c3e0f95a7cf0001ebe1f6"
+    },
+    "lat": "27.723261995848617",
+    "lon": "77.49850471469823",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1617102882388"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61734a404139045090dacef7"
+    },
+    "cropdocId": {
+      "$oid": "6080e8ed5334470001a4db85"
+    },
+    "imageUrl": "plantdoctor/6c8daa0b-513d-420e-9ee5-e3644d0c0740.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f3f89c5886a562f2a6b54de",
+    "diseasename": "American Pin worm (Tomato Leaf Miner)",
+    "userId": {
+      "$oid": "5f4f5fd471a0b4478c5574cc"
+    },
+    "lat": "27.769395785591627",
+    "lon": "77.46620022974852",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1619060970018"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61734a464139045090dacefe"
+    },
+    "cropdocId": {
+      "$oid": "6080eb0e5334470001a4db87"
+    },
+    "imageUrl": "plantdoctor/c17a3fef-b532-404d-ab11-056b13704b3c.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f3f89c5886a562f2a6b54de",
+    "diseasename": "American Pin worm (Tomato Leaf Miner)",
+    "userId": {
+      "$oid": "5f4f5fd471a0b4478c5574cc"
+    },
+    "lat": "27.769395785591627",
+    "lon": "77.46620022974852",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1619061513113"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61734d0f4139045090dad246"
+    },
+    "cropdocId": {
+      "$oid": "6087ffe34b942500014b9273"
+    },
+    "imageUrl": "plantdoctor/0076fa26-cb6f-4559-b676-e8a462c90b47.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f440bd4611a1212e280d662",
+    "diseasename": "Leaf curl virus",
+    "userId": {
+      "$oid": "5f4f5fd471a0b4478c5574cc"
+    },
+    "lat": "27.76983706442257",
+    "lon": "77.46557557163679",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1619525596362"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617356a04139045090dadd8c"
+    },
+    "cropdocId": {
+      "$oid": "609fbebe228fa10001f90400"
+    },
+    "imageUrl": "plantdoctor/a2d12485-a640-4302-8f61-20ff914a7c7d.JPEG",
+    "cropId": "5fc8d041ff0cb6c895626749",
+    "cropname": "Watermelon",
+    "diseaseId": "5f440bd4611a1212e280d662",
+    "diseasename": "Leaf curl virus",
+    "userId": {
+      "$oid": "609b8d57f3e1720001f25d5f"
+    },
+    "lat": "27.374232512617056",
+    "lon": "77.8774032471423",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Atmadpur",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1621081787665"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617357d44139045090dadefc"
+    },
+    "cropdocId": {
+      "$oid": "60a2488f5334470001a4e064"
+    },
+    "imageUrl": "plantdoctor/1b5f0e51-2fbf-4833-8ce4-37d87e4b90e2.JPEG",
+    "cropId": "5fc8d041ff0cb6c895626749",
+    "cropname": "Watermelon",
+    "diseaseId": "5f440bd4611a1212e280d662",
+    "diseasename": "Leaf curl virus",
+    "userId": {
+      "$oid": "609b8d57f3e1720001f25d5f"
+    },
+    "lat": "27.373990958312646",
+    "lon": "77.87778329454781",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Atmadpur",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1621248140086"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617359624139045090dae0d5"
+    },
+    "cropdocId": {
+      "$oid": "60a5c6035334470001a4e0fc"
+    },
+    "imageUrl": "plantdoctor/2453e82e-8123-4aff-a382-211e3f67b2f2.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f440458611a1212e280d65c",
+    "diseasename": "Tomato Spotted Wilt Virus (TOSPOW Virus)",
+    "userId": {
+      "$oid": "603c3e0f95a7cf0001ebe1f6"
+    },
+    "lat": "27.73546392872615",
+    "lon": "77.49683567295229",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1621476860601"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617359634139045090dae0d6"
+    },
+    "cropdocId": {
+      "$oid": "60a5c6235334470001a4e0fd"
+    },
+    "imageUrl": "plantdoctor/b062413e-a039-4aee-8446-07c0310b943d.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f440458611a1212e280d65c",
+    "diseasename": "Tomato Spotted Wilt Virus (TOSPOW Virus)",
+    "userId": {
+      "$oid": "603c3e0f95a7cf0001ebe1f6"
+    },
+    "lat": "27.73546392872615",
+    "lon": "77.49683567295229",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1621476892424"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617359644139045090dae0d7"
+    },
+    "cropdocId": {
+      "$oid": "60a5c63f228fa10001f904fe"
+    },
+    "imageUrl": "plantdoctor/d53d18b3-8cef-4cda-8a47-3f785a4e7883.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f440458611a1212e280d65c",
+    "diseasename": "Tomato Spotted Wilt Virus (TOSPOW Virus)",
+    "userId": {
+      "$oid": "603c3e0f95a7cf0001ebe1f6"
+    },
+    "lat": "27.73546392872615",
+    "lon": "77.49683567295229",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1621476920400"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617359654139045090dae0d8"
+    },
+    "cropdocId": {
+      "$oid": "60a5c68a5334470001a4e0fe"
+    },
+    "imageUrl": "plantdoctor/277f5fcf-ea35-44eb-8d04-2eb8676d49a6.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f440458611a1212e280d65c",
+    "diseasename": "Tomato Spotted Wilt Virus (TOSPOW Virus)",
+    "userId": {
+      "$oid": "603c3e0f95a7cf0001ebe1f6"
+    },
+    "lat": "27.73546392872615",
+    "lon": "77.49683567295229",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1621476999086"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617359664139045090dae0d9"
+    },
+    "cropdocId": {
+      "$oid": "60a5c9c6ab75010001cde22e"
+    },
+    "imageUrl": "plantdoctor/d9234120-6079-4427-a123-36df7fab8f19.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "603c3e0f95a7cf0001ebe1f6"
+    },
+    "lat": "27.72072219015139",
+    "lon": "77.50222473380505",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1621477827412"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617359664139045090dae0da"
+    },
+    "cropdocId": {
+      "$oid": "60a5cabc4b942500014b96d4"
+    },
+    "imageUrl": "plantdoctor/4351f9b6-159a-41b8-b317-9d541e6b5268.JPEG",
+    "cropId": "5f647a0be063f15aa034abca",
+    "cropname": "Okra",
+    "diseaseId": "5f3fbbf5886a562f2a6b54e5",
+    "diseasename": "Leaf hoppers (Plant hoppers)",
+    "userId": {
+      "$oid": "603c3e0f95a7cf0001ebe1f6"
+    },
+    "lat": "27.753223092538285",
+    "lon": "77.48356749097672",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1621478069040"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617359674139045090dae0db"
+    },
+    "cropdocId": {
+      "$oid": "60a5cadaab75010001cde22f"
+    },
+    "imageUrl": "plantdoctor/50fb64f7-9771-4e6b-97d6-b08ac9f16d39.JPEG",
+    "cropId": "5f647a0be063f15aa034abca",
+    "cropname": "Okra",
+    "diseaseId": "5f3fbbf5886a562f2a6b54e5",
+    "diseasename": "Leaf hoppers (Plant hoppers)",
+    "userId": {
+      "$oid": "603c3e0f95a7cf0001ebe1f6"
+    },
+    "lat": "27.753223092538285",
+    "lon": "77.48356749097672",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1621478103524"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617359a94139045090dae12a"
+    },
+    "cropdocId": {
+      "$oid": "60a62db65334470001a4e115"
+    },
+    "imageUrl": "plantdoctor/759dcd31-7b0b-4929-84ba-125ddd3ce75e.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "60a62d3078324c00016864f3"
+    },
+    "lat": "27.844951389466196",
+    "lon": "77.65402942040839",
+    "road": "MDR123W",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Naujheel",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1621503411013"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617359ab4139045090dae12c"
+    },
+    "cropdocId": {
+      "$oid": "60a630de5334470001a4e117"
+    },
+    "imageUrl": "plantdoctor/b6c5cd9f-1385-41bb-8c90-e5dfaf24d897.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "60a62d3078324c00016864f3"
+    },
+    "lat": "27.844951389466196",
+    "lon": "77.65402942040839",
+    "road": "MDR123W",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Naujheel",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1621504215516"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617359ac4139045090dae12d"
+    },
+    "cropdocId": {
+      "$oid": "60a63101228fa10001f90516"
+    },
+    "imageUrl": "plantdoctor/3b3edb12-2d9e-4909-b0bb-3bb597752f5d.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "60a62d3078324c00016864f3"
+    },
+    "lat": "27.844951389466196",
+    "lon": "77.65402942040839",
+    "road": "MDR123W",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Naujheel",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1621504253535"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61735a1f4139045090dae1b7"
+    },
+    "cropdocId": {
+      "$oid": "60a72326228fa10001f9053e"
+    },
+    "imageUrl": "plantdoctor/0d34b602-faa2-4267-8f99-5f4547db6af9.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "603c3e0f95a7cf0001ebe1f6"
+    },
+    "lat": "27.753223092538285",
+    "lon": "77.48356749097672",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1621566243859"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61735ba34139045090dae384"
+    },
+    "cropdocId": {
+      "$oid": "60a9c459e17df700015ec820"
+    },
+    "imageUrl": "plantdoctor/b5e26eda-be95-4954-ad80-416756ad2345.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "603c3e0f95a7cf0001ebe1f6"
+    },
+    "lat": "27.729301234668657",
+    "lon": "77.49898143955554",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1621738582287"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61735d944139045090dae5d3"
+    },
+    "cropdocId": {
+      "$oid": "60ace3457a1da0000109b64c"
+    },
+    "imageUrl": "plantdoctor/9aba79a0-1558-431c-acab-1b34909af8a3.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f440bd4611a1212e280d662",
+    "diseasename": "Leaf curl virus",
+    "userId": {
+      "$oid": "603c3e0f95a7cf0001ebe1f6"
+    },
+    "lat": "27.753223092538285",
+    "lon": "77.48356749097672",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1621943106404"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61735d9a4139045090dae5da"
+    },
+    "cropdocId": {
+      "$oid": "60ace62e7a1da0000109b64e"
+    },
+    "imageUrl": "plantdoctor/025895d7-df57-4c31-b6c2-e213ac827e64.JPEG",
+    "cropId": "5fc8d041ff0cb6c895626749",
+    "cropname": "Watermelon",
+    "diseaseId": "5f440bd4611a1212e280d662",
+    "diseasename": "Leaf curl virus",
+    "userId": {
+      "$oid": "603c3e0f95a7cf0001ebe1f6"
+    },
+    "lat": "27.7289324",
+    "lon": "77.4991048",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1621943851263"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61736f604139045090dafaf5"
+    },
+    "cropdocId": {
+      "$oid": "60cc035e9646f600014fc358"
+    },
+    "imageUrl": "plantdoctor/1fed11f0-dc91-47ab-9825-de9079f5efa6.JPEG",
+    "cropId": "5ebd78e2bcc00904187a00c4",
+    "cropname": "Brinjal",
+    "diseaseId": "5f3f8b53886a562f2a6b54df",
+    "diseasename": "Red Spider mite",
+    "userId": {
+      "$oid": "603c3e0f95a7cf0001ebe1f6"
+    },
+    "lat": "27.714306087830476",
+    "lon": "77.49649630056375",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1623982936133"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61736f614139045090dafaf6"
+    },
+    "cropdocId": {
+      "$oid": "60cc038765f6170001fbe9f2"
+    },
+    "imageUrl": "plantdoctor/7f460769-9b30-4808-96b1-c4a46bf4f51a.JPEG",
+    "cropId": "5ebd78e2bcc00904187a00c4",
+    "cropname": "Brinjal",
+    "diseaseId": "5f3f8b53886a562f2a6b54df",
+    "diseasename": "Red Spider mite",
+    "userId": {
+      "$oid": "603c3e0f95a7cf0001ebe1f6"
+    },
+    "lat": "27.714306087830476",
+    "lon": "77.49649630056375",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1623982976623"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61736f6f4139045090dafb07"
+    },
+    "cropdocId": {
+      "$oid": "60cc0ecfc5852a0001878e83"
+    },
+    "imageUrl": "plantdoctor/415f39d2-b9bb-472d-9d01-ffc6ee3e6cb0.JPEG",
+    "cropId": "5ebd78e2bcc00904187a00c4",
+    "cropname": "Brinjal",
+    "diseaseId": "5f3fb9c3886a562f2a6b54e2",
+    "diseasename": "Whiteflies",
+    "userId": {
+      "$oid": "603c3e0f95a7cf0001ebe1f6"
+    },
+    "lat": "27.723621583081997",
+    "lon": "77.49926113897043",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1623985864377"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617383084139045090db1277"
+    },
+    "cropdocId": {
+      "$oid": "60f0ebd0576ff40001ebcab6"
+    },
+    "imageUrl": "plantdoctor/99194491-de8d-4aa8-98d5-5c295ddcdb0c.JPEG",
+    "cropId": "5ebdce10bcc00904187a00ca",
+    "cropname": "Muskmelon",
+    "diseaseId": "5f4407f4611a1212e280d65e",
+    "diseasename": "Powdery Mildew",
+    "userId": {
+      "$oid": "603c3e0f95a7cf0001ebe1f6"
+    },
+    "lat": "27.72333804285476",
+    "lon": "77.49872134842958",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1626401741389"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173831f4139045090db1293"
+    },
+    "cropdocId": {
+      "$oid": "60f1032be8939400017740e0"
+    },
+    "imageUrl": "plantdoctor/8fc6d8dc-3811-4c7b-a97f-e72e4e142b0f.JPEG",
+    "cropId": "5f647a0be063f15aa034abca",
+    "cropname": "Okra",
+    "diseaseId": "5f3fbbf5886a562f2a6b54e5",
+    "diseasename": "Leaf hoppers (Plant hoppers)",
+    "userId": {
+      "$oid": "603c3e0f95a7cf0001ebe1f6"
+    },
+    "lat": "27.713932955159525",
+    "lon": "77.49600250825588",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1626407720510"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173864c4139045090db1666"
+    },
+    "cropdocId": {
+      "$oid": "60f62d38b7a94a00015e7c03"
+    },
+    "imageUrl": "plantdoctor/e9e25e58-10fa-4a18-b455-c194e857a339.JPEG",
+    "cropId": "5f647a0be063f15aa034abca",
+    "cropname": "Okra",
+    "diseaseId": "5f3fbe0e886a562f2a6b54e7",
+    "diseasename": "Leaf Eating Caterpillars",
+    "userId": {
+      "$oid": "603c3e0f95a7cf0001ebe1f6"
+    },
+    "lat": "27.70872600929107",
+    "lon": "77.4545317674956",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Khaira",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1626746162268"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617396f64139045090db2a6d"
+    },
+    "cropdocId": {
+      "$oid": "610e29e35263c100017b1eba"
+    },
+    "imageUrl": "plantdoctor/b5737ca5-176a-4501-8eef-c785295f21cf.JPEG",
+    "cropId": "60657d098cffea00012bd85e",
+    "cropname": "Cucumber (open)",
+    "diseaseId": "5f440cff611a1212e280d663",
+    "diseasename": "Yellow Leaf mosaic Virus",
+    "userId": {
+      "$oid": "603c3e0f95a7cf0001ebe1f6"
+    },
+    "lat": "27.722826550522235",
+    "lon": "77.49712566886484",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1628318172464"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617396f94139045090db2a70"
+    },
+    "cropdocId": {
+      "$oid": "610e2a967bb75f00010fee83"
+    },
+    "imageUrl": "plantdoctor/ef155321-3d45-4e32-8011-cb8ee30ce587.JPEG",
+    "cropId": "5ebd78e2bcc00904187a00c4",
+    "cropname": "Brinjal",
+    "diseaseId": "5f4409e3611a1212e280d660",
+    "diseasename": "Bacterial wilt/sourthern bacterial blight disease",
+    "userId": {
+      "$oid": "603c3e0f95a7cf0001ebe1f6"
+    },
+    "lat": "27.722826550522235",
+    "lon": "77.49712566886484",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1628318351158"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a09d4139045090db35f6"
+    },
+    "cropdocId": {
+      "$oid": "611c70aa9287d80001599ccf"
+    },
+    "imageUrl": "plantdoctor/8c53baa9-fa59-474d-92e1-a1f7e92c86c9.JPEG",
+    "cropId": "5efc451f5d6eff62b068c9e9",
+    "cropname": "Paddy",
+    "diseaseId": "609a1231c21fd8000173b73b",
+    "diseasename": "Bacterial leaf blight (BLB)",
+    "userId": {
+      "$oid": "611c70295b08f700017467fc"
+    },
+    "lat": "27.783786804636115",
+    "lon": "77.58280911626441",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Paigaon",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629253793852"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a97c4139045090db409e"
+    },
+    "cropdocId": {
+      "$oid": "61278a73da880700013dfd6f"
+    },
+    "imageUrl": "plantdoctor/4055a7cc-8f39-47ef-ae6b-a199ae867c1b.JPEG",
+    "cropId": "5ebd7846bcc00904187a00c1",
+    "cropname": "Red Chilli",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "61250fd10480ca0001aeb1a8"
+    },
+    "lat": "27.238576683935467",
+    "lon": "78.3514785121805",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Firozabad",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629981292049"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173a9804139045090db40a2"
+    },
+    "cropdocId": {
+      "$oid": "61278f9eb305be000192a796"
+    },
+    "imageUrl": "plantdoctor/3fbdaa31-a5c9-4dc9-b528-d9ceef709aa0.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "61250fd10480ca0001aeb1a8"
+    },
+    "lat": "27.238576683935467",
+    "lon": "78.3514785121805",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Firozabad",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1629982614163"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173ab254139045090db429f"
+    },
+    "cropdocId": {
+      "$oid": "6129a6799802fd00013a4b34"
+    },
+    "imageUrl": "plantdoctor/ba8d36f6-82c6-4c90-91b2-4bd96cfcd872.JPEG",
+    "cropId": "5ebd7846bcc00904187a00c1",
+    "cropname": "Red Chilli",
+    "diseaseId": "5f440bd4611a1212e280d662",
+    "diseasename": "Leaf curl virus",
+    "userId": {
+      "$oid": "61250fd10480ca0001aeb1a8"
+    },
+    "lat": "27.238576683935467",
+    "lon": "78.3514785121805",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Firozabad",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1630119534697"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173b0724139045090db48f7"
+    },
+    "cropdocId": {
+      "$oid": "612f3db423a67700013cb145"
+    },
+    "imageUrl": "plantdoctor/7b5c8be9-b0c3-45de-8674-0d08378bc3f0.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f440bd4611a1212e280d662",
+    "diseasename": "Leaf curl virus",
+    "userId": {
+      "$oid": "5f4f702871a0b4478c559e0b"
+    },
+    "lat": "27.23463675",
+    "lon": "78.2771309043707",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Tundla",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1630485935324"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173b0734139045090db48f9"
+    },
+    "cropdocId": {
+      "$oid": "612f3ddf686ea90001ae94ed"
+    },
+    "imageUrl": "plantdoctor/fcb001e8-9ab2-49c1-82eb-94bd886658ec.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f3fc4f3886a562f2a6b54ee",
+    "diseasename": "Bacterial speck/spot",
+    "userId": {
+      "$oid": "5f4f702871a0b4478c559e0b"
+    },
+    "lat": "27.23463675",
+    "lon": "78.2771309043707",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Tundla",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1630485978383"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173b71c4139045090db50f0"
+    },
+    "cropdocId": {
+      "$oid": "6136120923a67700013cb384"
+    },
+    "imageUrl": "plantdoctor/341eaa4a-df5b-4b9c-af11-6fbd2a7ee978.JPEG",
+    "cropId": "5efc451f5d6eff62b068c9e9",
+    "cropname": "Paddy",
+    "diseaseId": "6098b1962c61990001c60734",
+    "diseasename": "Rice stem borer",
+    "userId": {
+      "$oid": "603c3e0f95a7cf0001ebe1f6"
+    },
+    "lat": "27.763304696617823",
+    "lon": "77.4720419165529",
+    "road": "NH44",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Chhata",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1630933509471"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173bef24139045090db59df"
+    },
+    "cropdocId": {
+      "$oid": "613eabac23a67700013cb661"
+    },
+    "imageUrl": "plantdoctor/672f7916-ef2d-41c6-b058-a3d0d5a8048d.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f440bd4611a1212e280d662",
+    "diseasename": "Leaf curl virus",
+    "userId": {
+      "$oid": "5f4f702871a0b4478c559e0b"
+    },
+    "lat": "27.31108702531355",
+    "lon": "78.31781951429409",
+    "road": "SH31",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Tundla",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631497130171"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173bfc04139045090db5ad4"
+    },
+    "cropdocId": {
+      "$oid": "613f47a8686ea90001ae9a96"
+    },
+    "imageUrl": "plantdoctor/047014a6-829c-4269-ad6d-c2243db329bb.JPEG",
+    "cropId": "5efc451f5d6eff62b068c9e9",
+    "cropname": "Paddy",
+    "diseaseId": "609a7ec4b6c98e0001b34570",
+    "diseasename": "Sheath rot",
+    "userId": {
+      "$oid": "603c3e0f95a7cf0001ebe1f6"
+    },
+    "lat": "27.704710117823414",
+    "lon": "77.47507529932474",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Bhadawal",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631537060216"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173c60f4139045090db6262"
+    },
+    "cropdocId": {
+      "$oid": "6145c7897e06f700018703c7"
+    },
+    "imageUrl": "plantdoctor/441b544c-9c9b-41ac-8310-acd0a29eba80.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f440bd4611a1212e280d662",
+    "diseasename": "Leaf curl virus",
+    "userId": {
+      "$oid": "6123675a5b08f70001746fc6"
+    },
+    "lat": "27.351650579342284",
+    "lon": "77.72612882538407",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Kurkanda",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631963011197"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173c6104139045090db6263"
+    },
+    "cropdocId": {
+      "$oid": "6145c7fe71215200016d5353"
+    },
+    "imageUrl": "plantdoctor/a61beb4d-e943-416f-94cc-7c4ff5ee3bcf.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f440bd4611a1212e280d662",
+    "diseasename": "Leaf curl virus",
+    "userId": {
+      "$oid": "6123675a5b08f70001746fc6"
+    },
+    "lat": "27.351650579342284",
+    "lon": "77.72612882538407",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Kurkanda",
+    "county": "Mathura",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1631963127075"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173c8384139045090db64f6"
+    },
+    "cropdocId": {
+      "$oid": "6148319d044d8900013fa02d"
+    },
+    "imageUrl": "plantdoctor/82b5de39-4cb3-492f-93b3-529bb5bd1906.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f4900a2cf7c660d284c0808",
+    "diseasename": "Blossom end rot",
+    "userId": {
+      "$oid": "611d277c5b08f700017468fc"
+    },
+    "lat": "27.3323932",
+    "lon": "78.1906735",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Etmadpur",
+    "district": "Agra division",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1632121240406"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617335b74139045090dab6a4"
+    },
+    "cropdocId": {
+      "$oid": "604c4995d8980000011d07d5"
+    },
+    "imageUrl": "plantdoctor/dc30b95e-4b38-4d18-b16d-cf0a83c9cdbe.JPEG",
+    "cropId": "5ebdde49bcc00904187a00d9",
+    "cropname": "Citrus",
+    "diseaseId": "5f3fbe0e886a562f2a6b54e7",
+    "diseasename": "Leaf Eating Caterpillars",
+    "userId": {
+      "$oid": "60439906ba9b3b0001010421"
+    },
+    "lat": "22.776513213412663",
+    "lon": "72.20045341053228",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Bavla Taluka",
+    "district": "Ahmedabad District",
+    "state": "Gujarat",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1615612305563"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617351304139045090dad726"
+    },
+    "cropdocId": {
+      "$oid": "6092b20e5334470001a4ddfa"
+    },
+    "imageUrl": "plantdoctor/3df651d0-ec86-4dbc-9257-e8c2835bb59b.JPEG",
+    "cropId": "5f647a0be063f15aa034abca",
+    "cropname": "Okra",
+    "diseaseId": "5f4407f4611a1212e280d65e",
+    "diseasename": "Powdery Mildew",
+    "userId": {
+      "$oid": "607731ffa1c45d0001941b4b"
+    },
+    "lat": "22.922360513666035",
+    "lon": "72.71732640903761",
+    "road": "SH144",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Kheda Taluka",
+    "district": "Ahmedabad District",
+    "state": "Gujarat",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1620226571794"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617354af4139045090dadb34"
+    },
+    "cropdocId": {
+      "$oid": "609ac720228fa10001f90353"
+    },
+    "imageUrl": "plantdoctor/2e22b0b0-3d9e-4dc6-9bfa-aaecbabc91b1.JPEG",
+    "cropId": "5ebd7762bcc00904187a00be",
+    "cropname": "Beans",
+    "diseaseId": "5f440cff611a1212e280d663",
+    "diseasename": "Yellow Leaf mosaic Virus",
+    "userId": {
+      "$oid": "5f4f59b271a0b4478c5565a1"
+    },
+    "lat": "23.024553490034705",
+    "lon": "72.4658107645925",
+    "road": "",
+    "suburb": "Bopal",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Daskroi Taluka",
+    "district": "Ahmedabad District",
+    "state": "Gujarat",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1620756252829"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617393634139045090db262a"
+    },
+    "cropdocId": {
+      "$oid": "610955467bb75f00010fecf5"
+    },
+    "imageUrl": "plantdoctor/196647a3-1f8a-4a72-8590-ad527e7acebc.JPEG",
+    "cropId": "6065980fd95c9b000154c521",
+    "cropname": "Ridge gourd",
+    "diseaseId": "5f440cff611a1212e280d663",
+    "diseasename": "Yellow Leaf mosaic Virus",
+    "userId": {
+      "$oid": "607731ffa1c45d0001941b4b"
+    },
+    "lat": "22.922386032069813",
+    "lon": "72.71712726541597",
+    "road": "SH144",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Kheda Taluka",
+    "district": "Ahmedabad District",
+    "state": "Gujarat",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1628001600711"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617393ac4139045090db2682"
+    },
+    "cropdocId": {
+      "$oid": "610a235c308c670001a657e2"
+    },
+    "imageUrl": "plantdoctor/a9e7c914-472d-4aa1-b033-e3cda2475e11.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "609922bf6a21f5000137721d",
+    "diseasename": "Leaf folders",
+    "userId": {
+      "$oid": "61058f05f1dd9400014d783b"
+    },
+    "lat": "22.251297619834457",
+    "lon": "71.86188829885886",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Barwala Taluka",
+    "district": "Ahmedabad District",
+    "state": "Gujarat",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1628054357577"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173b2524139045090db4b36"
+    },
+    "cropdocId": {
+      "$oid": "61311036686ea90001ae95a5"
+    },
+    "imageUrl": "plantdoctor/46af8123-2b00-4f4b-bf9a-745aecffd9e4.JPEG",
+    "cropId": "6065980fd95c9b000154c521",
+    "cropname": "Ridge gourd",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "5fa976e1c9e7120001fc5491"
+    },
+    "lat": "22.985205511522373",
+    "lon": "72.4123124915806",
+    "road": "NH947",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Telav",
+    "county": "Sanand Taluka",
+    "district": "Ahmedabad District",
+    "state": "Gujarat",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1630605362170"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173b2524139045090db4b37"
+    },
+    "cropdocId": {
+      "$oid": "61311104686ea90001ae95a6"
+    },
+    "imageUrl": "plantdoctor/8ac941fb-7554-4a7e-8149-6b68edcf0320.JPEG",
+    "cropId": "6065980fd95c9b000154c521",
+    "cropname": "Ridge gourd",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "5fa976e1c9e7120001fc5491"
+    },
+    "lat": "22.98507214337171",
+    "lon": "72.41305903734012",
+    "road": "NH947",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Telav",
+    "county": "Sanand Taluka",
+    "district": "Ahmedabad District",
+    "state": "Gujarat",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1630605569685"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173cf044139045090db6d15"
+    },
+    "cropdocId": {
+      "$oid": "61500303a579a90001762567"
+    },
+    "imageUrl": "plantdoctor/119e4e7d-a712-466a-841f-d348fcef74e0.JPEG",
+    "cropId": "60786a01317478226826038c",
+    "cropname": "Cauliflower",
+    "diseaseId": "5f493f35cf7c660d284c080a",
+    "diseasename": "Chlorosis (Yellowing)",
+    "userId": {
+      "$oid": "5fd1eaa76f7cc600016fa17e"
+    },
+    "lat": "23.250466609644853",
+    "lon": "72.14031584390624",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Rampura",
+    "county": "Detroj Rampura Taluka",
+    "district": "Ahmedabad District",
+    "state": "Gujarat",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1632633600056"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173cf054139045090db6d16"
+    },
+    "cropdocId": {
+      "$oid": "6150034271215200016d566a"
+    },
+    "imageUrl": "plantdoctor/922c208e-5474-427b-8513-e545db95bf34.JPEG",
+    "cropId": "60786a01317478226826038c",
+    "cropname": "Cauliflower",
+    "diseaseId": "5f493f35cf7c660d284c080a",
+    "diseasename": "Chlorosis (Yellowing)",
+    "userId": {
+      "$oid": "5fd1eaa76f7cc600016fa17e"
+    },
+    "lat": "23.250466609644853",
+    "lon": "72.14031584390624",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Rampura",
+    "county": "Detroj Rampura Taluka",
+    "district": "Ahmedabad District",
+    "state": "Gujarat",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1632633663754"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617342154139045090dac551"
+    },
+    "cropdocId": {
+      "$oid": "606b0d75c7d6fd000175d985"
+    },
+    "imageUrl": "plantdoctor/24fc3487-95c2-4fb8-a1bf-eb8f907ada5c.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "5f4f4de671a0b4478c554800"
+    },
+    "lat": "19.8641183",
+    "lon": "74.5915842",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Bhojade",
+    "county": "Kopargaon",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1617628530811"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617345e14139045090dac9d2"
+    },
+    "cropdocId": {
+      "$oid": "6075a788ab75010001cddb66"
+    },
+    "imageUrl": "plantdoctor/ac8d7bf3-9023-4de5-824c-01f6f0e25287.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "6075a6940b963c0001d3db66"
+    },
+    "lat": "19.489917050000003",
+    "lon": "74.24637475177133",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Sangamner",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1618323331906"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617346854139045090daca94"
+    },
+    "cropdocId": {
+      "$oid": "6077c14a228fa10001f8fe41"
+    },
+    "imageUrl": "plantdoctor/d266b3b6-0b9a-4814-9499-ad0757ada1bd.JPEG",
+    "cropId": "60657d098cffea00012bd85e",
+    "cropname": "Cucumber (open)",
+    "diseaseId": "5f3f861b886a562f2a6b54dd",
+    "diseasename": "Leaf Miner",
+    "userId": {
+      "$oid": "6077c076ab2a560001ca62d3"
+    },
+    "lat": "19.19524781048943",
+    "lon": "74.37265220031497",
+    "road": "SH50",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Takli Dhokeshwar",
+    "county": "Parner",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1618461000202"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617349244139045090dacda7"
+    },
+    "cropdocId": {
+      "$oid": "607d7a4d5334470001a4db21"
+    },
+    "imageUrl": "plantdoctor/c7bfc436-5f86-4184-addc-44f0cdd5b0f4.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "6075a6940b963c0001d3db66"
+    },
+    "lat": "19.489917050000003",
+    "lon": "74.24637475177133",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Sangamner",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1618836041375"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61734e644139045090dad3db"
+    },
+    "cropdocId": {
+      "$oid": "608b8fbaab75010001cdde60"
+    },
+    "imageUrl": "plantdoctor/50030bfa-63df-4945-965a-abd31ab4062e.JPEG",
+    "cropId": "5ebdce10bcc00904187a00ca",
+    "cropname": "Muskmelon",
+    "diseaseId": "5f61ee7a602688768f46342c",
+    "diseasename": "Gummy Stem Blight",
+    "userId": {
+      "$oid": "60785b08c1e31c0001751de4"
+    },
+    "lat": "18.765922096057846",
+    "lon": "74.619642519641",
+    "road": "MDR69",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Shrigonda",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1619759027712"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61734ffb4139045090dad5b9"
+    },
+    "cropdocId": {
+      "$oid": "608f9a9b4b942500014b9381"
+    },
+    "imageUrl": "plantdoctor/c3f9cdd2-d408-4d9c-80e6-2b1030ec3acb.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f440bd4611a1212e280d662",
+    "diseasename": "Leaf curl virus",
+    "userId": {
+      "$oid": "6079fa78c1e31c0001751f23"
+    },
+    "lat": "19.631059828568926",
+    "lon": "74.63699348259199",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Shrirampur",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1620023958315"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617353f74139045090dada58"
+    },
+    "cropdocId": {
+      "$oid": "60991bc6ab75010001cde044"
+    },
+    "imageUrl": "plantdoctor/961f668c-b37d-4c9a-8e35-29e9ebb9957f.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "6093f7b5f2b2e2000129bace"
+    },
+    "lat": "18.536999965304418",
+    "lon": "75.26151010391443",
+    "road": "SH143",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Jamkhed",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1620646851166"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617358184139045090dadf4c"
+    },
+    "cropdocId": {
+      "$oid": "60a337a54b942500014b9665"
+    },
+    "imageUrl": "plantdoctor/6f620907-c58b-425c-ad9b-2186eb79a800.JPEG",
+    "cropId": "5fc8d041ff0cb6c895626749",
+    "cropname": "Watermelon",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "60a3366678324c000168612b"
+    },
+    "lat": "19.6588531",
+    "lon": "74.7610188",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Malwadgaon",
+    "county": "Shrirampur",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1621309348012"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61735a0c4139045090dae1a0"
+    },
+    "cropdocId": {
+      "$oid": "60a70f9d228fa10001f90536"
+    },
+    "imageUrl": "plantdoctor/da1ffc84-83c3-420c-9452-379af9f1a818.JPEG",
+    "cropId": "5f5639fb454475068a6b0ab2",
+    "cropname": "Green Chilli",
+    "diseaseId": "5f3fba50886a562f2a6b54e3",
+    "diseasename": "Thrips",
+    "userId": {
+      "$oid": "60a655e878324c0001686538"
+    },
+    "lat": "19.524788727697626",
+    "lon": "74.96261478346963",
+    "road": "Ahmadnagar Aurangabad Highway",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Bhanas",
+    "county": "Nevasa",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1621561237384"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61735a124139045090dae1a7"
+    },
+    "cropdocId": {
+      "$oid": "60a71190228fa10001f90538"
+    },
+    "imageUrl": "plantdoctor/e734435b-ed2d-4874-83e7-690dd4719f03.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f440909611a1212e280d65f",
+    "diseasename": "Anthracnose",
+    "userId": {
+      "$oid": "60a655e878324c0001686538"
+    },
+    "lat": "19.524788727697626",
+    "lon": "74.96261478346963",
+    "road": "Ahmadnagar Aurangabad Highway",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Bhanas",
+    "county": "Nevasa",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1621561742207"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61735e8c4139045090dae6fd"
+    },
+    "cropdocId": {
+      "$oid": "60ae6d0c7ab70e0001336e33"
+    },
+    "imageUrl": "plantdoctor/2f05f7ae-6a47-40a7-9846-d39cc90b1b6a.JPEG",
+    "cropId": "5fc8d041ff0cb6c895626749",
+    "cropname": "Watermelon",
+    "diseaseId": "5f440bd4611a1212e280d662",
+    "diseasename": "Leaf curl virus",
+    "userId": {
+      "$oid": "60a3366678324c000168612b"
+    },
+    "lat": "19.6588531",
+    "lon": "74.7610188",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Malwadgaon",
+    "county": "Shrirampur",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1622043913757"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61736d114139045090daf837"
+    },
+    "cropdocId": {
+      "$oid": "60c6ed33e51f7d00018bf7f7"
+    },
+    "imageUrl": "plantdoctor/44f68e05-0493-46e1-80be-76b18545074f.JPEG",
+    "cropId": "5f647a0be063f15aa034abca",
+    "cropname": "Okra",
+    "diseaseId": "5f3fbaa6886a562f2a6b54e4",
+    "diseasename": "Aphids",
+    "userId": {
+      "$oid": "5fe32e4f28a5ee0001e8fea8"
+    },
+    "lat": "18.733258442590305",
+    "lon": "75.30605605678952",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Jamkhed",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1623649583425"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "61736d124139045090daf838"
+    },
+    "cropdocId": {
+      "$oid": "60c6ed46fda2780001576349"
+    },
+    "imageUrl": "plantdoctor/03f6a6ea-6762-4995-a8e3-331c85f39404.JPEG",
+    "cropId": "5f647a0be063f15aa034abca",
+    "cropname": "Okra",
+    "diseaseId": "5f3fbaa6886a562f2a6b54e4",
+    "diseasename": "Aphids",
+    "userId": {
+      "$oid": "5fe32e4f28a5ee0001e8fea8"
+    },
+    "lat": "18.733258442590305",
+    "lon": "75.30605605678952",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Jamkhed",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1623649602547"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617382174139045090db1155"
+    },
+    "cropdocId": {
+      "$oid": "60eefce4576ff40001ebca55"
+    },
+    "imageUrl": "plantdoctor/17599e89-2b19-43e6-9f8f-968763a84ef3.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbbf5886a562f2a6b54e5",
+    "diseasename": "Leaf hoppers (Plant hoppers)",
+    "userId": {
+      "$oid": "60edbc6f0480ca0001ae77fb"
+    },
+    "lat": "19.3953142",
+    "lon": "74.9501551",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Rastapur",
+    "county": "Nevasa",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1626275038875"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617382bd4139045090db121c"
+    },
+    "cropdocId": {
+      "$oid": "60f02d1ee8939400017740b2"
+    },
+    "imageUrl": "plantdoctor/98d8a09a-0746-4616-8f05-f23ec2f90e5a.JPEG",
+    "cropId": "5f647790e063f15aa034abc8",
+    "cropname": "Onion",
+    "diseaseId": "60a78b47125498000196a404",
+    "diseasename": "Bacterial Soft rot",
+    "userId": {
+      "$oid": "60f02cabf1dd9400014d637a"
+    },
+    "lat": "19.219093490684592",
+    "lon": "74.81192822389808",
+    "road": "MDR53",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Jehur",
+    "county": "Nagar",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1626352923473"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617382bd4139045090db121d"
+    },
+    "cropdocId": {
+      "$oid": "60f02d2b4ea17400017fc2c2"
+    },
+    "imageUrl": "plantdoctor/b4409d0f-1e99-4630-a67d-efb90efddb20.JPEG",
+    "cropId": "5f647790e063f15aa034abc8",
+    "cropname": "Onion",
+    "diseaseId": "60a78b47125498000196a404",
+    "diseasename": "Bacterial Soft rot",
+    "userId": {
+      "$oid": "60f02cabf1dd9400014d637a"
+    },
+    "lat": "19.219093490684592",
+    "lon": "74.81192822389808",
+    "road": "MDR53",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Jehur",
+    "county": "Nagar",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1626352934462"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617382c14139045090db1221"
+    },
+    "cropdocId": {
+      "$oid": "60f02f55e8939400017740b3"
+    },
+    "imageUrl": "plantdoctor/96684f63-ae1e-43d8-bfd0-15a761f3e15b.JPEG",
+    "cropId": "5f64784ee063f15aa034abc9",
+    "cropname": "Maize",
+    "diseaseId": "5f3fbd74886a562f2a6b54e6",
+    "diseasename": "Cut worms",
+    "userId": {
+      "$oid": "60f02cabf1dd9400014d637a"
+    },
+    "lat": "19.219958709615526",
+    "lon": "74.81593693157399",
+    "road": "MDR53",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "Jehur",
+    "county": "Nagar",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1626353487510"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617384154139045090db13ba"
+    },
+    "cropdocId": {
+      "$oid": "60f27fe9b7a94a00015e7b18"
+    },
+    "imageUrl": "plantdoctor/c07e6a87-930c-44c4-b128-f726b00a66c0.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f3fc4b1886a562f2a6b54ed",
+    "diseasename": "Early blight",
+    "userId": {
+      "$oid": "60d70ad3cfa835000158f983"
+    },
+    "lat": "18.54947619234576",
+    "lon": "75.00887762224038",
+    "road": "Maharashtra State Highway 68",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Karjat",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1626505189105"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "617384164139045090db13bb"
+    },
+    "cropdocId": {
+      "$oid": "60f27fffe893940001774132"
+    },
+    "imageUrl": "plantdoctor/74989a6d-7932-4531-8f61-55cc37e27262.JPEG",
+    "cropId": "5ebbf2b4bcc00904187a0075",
+    "cropname": "Tomato",
+    "diseaseId": "5f3fc4b1886a562f2a6b54ed",
+    "diseasename": "Early blight",
+    "userId": {
+      "$oid": "60d70ad3cfa835000158f983"
+    },
+    "lat": "18.54947619234576",
+    "lon": "75.00887762224038",
+    "road": "Maharashtra State Highway 68",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Karjat",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1626505211619"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173853c4139045090db151d"
+    },
+    "cropdocId": {
+      "$oid": "60f44c234ea17400017fc3ab"
+    },
+    "imageUrl": "plantdoctor/2b1f0a31-c21e-4a6e-bcd1-34bf765fb85e.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbaa6886a562f2a6b54e4",
+    "diseasename": "Aphids",
+    "userId": {
+      "$oid": "60f44b365b08f70001743eb1"
+    },
+    "lat": "19.3891776",
+    "lon": "74.6499061",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Rahuri",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1626623008276"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173853d4139045090db151e"
+    },
+    "cropdocId": {
+      "$oid": "60f44c2c576ff40001ebcb97"
+    },
+    "imageUrl": "plantdoctor/1b2922a4-273f-485c-835a-a0021e4a46d9.JPEG",
+    "cropId": "5ebdc8bebcc00904187a00c6",
+    "cropname": "Cotton",
+    "diseaseId": "5f3fbaa6886a562f2a6b54e4",
+    "diseasename": "Aphids",
+    "userId": {
+      "$oid": "60f44b365b08f70001743eb1"
+    },
+    "lat": "19.3891776",
+    "lon": "74.6499061",
+    "road": "",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Rahuri",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1626623017991"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173863c4139045090db1653"
+    },
+    "cropdocId": {
+      "$oid": "60f620f24ea17400017fc3fc"
+    },
+    "imageUrl": "plantdoctor/76e8731e-86f0-4c25-81c3-3693c821060a.JPEG",
+    "cropId": "5f647a0be063f15aa034abca",
+    "cropname": "Okra",
+    "diseaseId": "5f3fbaa6886a562f2a6b54e4",
+    "diseasename": "Aphids",
+    "userId": {
+      "$oid": "60ceb0d5f95d9c0001d15156"
+    },
+    "lat": "18.56225121918471",
+    "lon": "74.76326706264769",
+    "road": "MDR78",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Shrigonda",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1626743022246"
+      }
+    }
+  },{
+    "_id": {
+      "$oid": "6173863d4139045090db1654"
+    },
+    "cropdocId": {
+      "$oid": "60f62136b7a94a00015e7c02"
+    },
+    "imageUrl": "plantdoctor/6e4e51e5-745c-4ed0-ba07-0de3bf1b13c6.JPEG",
+    "cropId": "5f647a0be063f15aa034abca",
+    "cropname": "Okra",
+    "diseaseId": "5f3fbaa6886a562f2a6b54e4",
+    "diseasename": "Aphids",
+    "userId": {
+      "$oid": "60ceb0d5f95d9c0001d15156"
+    },
+    "lat": "18.56225121918471",
+    "lon": "74.76326706264769",
+    "road": "MDR78",
+    "suburb": "",
+    "city_district": "",
+    "city": "",
+    "village": "",
+    "county": "Shrigonda",
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "country_code": "in",
+    "createdOn": {
+      "$date": {
+        "$numberLong": "1626743086176"
+      }
+    }
+  }
+]

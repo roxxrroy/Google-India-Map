@@ -3,11 +3,13 @@
 import React, { useEffect, useState } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import NavBar from '../pages/NavBar';
+import SearchIcon from '../icons/SearchIcon';
 
 const RequireAuth = () => {
 	const [showExpandedSideBar, setShowExpandedSideBar] = useState();
 	const location = useLocation();
 	const activeTab = location?.pathname;
+	const [isNavBarVisible, setIsNavBarVisible] = useState(false);
 
 	useEffect(() => {
 		(async () => {
@@ -16,13 +18,22 @@ const RequireAuth = () => {
 		})();
 	}, []);
 
+	const toggleNavBar = () => {
+		console.log('NavBar toggle clicked');
+		setIsNavBarVisible(!isNavBarVisible);
+	};
+
 	return (
 		<main className="bg-white">
+			{/* <SearchIcon /> */}
+			{/* <button onClick={toggleNavBar}>Hello</button>
+			{isNavBarVisible && ( */}
 			<NavBar
 				activeTab={activeTab}
 				showExpandedSideBar={showExpandedSideBar}
 				setShowExpandedSideBar={setShowExpandedSideBar}
 			/>
+			{/* )} */}
 			<section className={`${showExpandedSideBar ? 'ml-56' : 'ml-16'}`}>
 				<div className="">
 					<Outlet />

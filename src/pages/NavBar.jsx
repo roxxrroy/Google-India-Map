@@ -1,8 +1,6 @@
-import React, { useEffect, useMemo, useState } from 'react';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import React, { useEffect } from 'react';
 import ChevronDoubleRightLeft from '../icons/ChevronDoubleRightLeft';
 import Filter from '../components/Filter';
-import Select from '../components/Select';
 
 const NavBar = ({
 	activeTab = '/',
@@ -18,11 +16,11 @@ const NavBar = ({
 
 	return (
 		<nav
-			className={`h-screen fixed bg-primary ${
-				showExpandedSideBar ? 'w-56' : 'w-16'
+			className={`h-screen fixed bg-white ${
+				showExpandedSideBar ? 'right-0' : 'right-0'
 			}`}
 		>
-			<div
+			{/* <div
 				className={`${
 					showExpandedSideBar ? 'h-16 md:h-24' : 'h-16'
 				} bg-white shadow-xl flex items-center space-x-2 py-3 mb-5`}
@@ -36,45 +34,18 @@ const NavBar = ({
 					}
 					alt="avatar"
 				/>
-			</div>
-
-			<div className="h-screen  w-full px-3">
-				<ul className="space-y-2">
-					{/* <li className="space-y-4">
-						<Link
-							to={`${cId}/dashboard`}
-							className={`${linksClassName} ${
-								(activeTab || '').includes('dashboard')
-									? 'bg-halfGreen hover:bg-primary'
-									: ''
-							}`}
-							title={showExpandedSideBar ? '' : 'Dashboard'}
-						>
-							<DashboardIcon className="h-5 w-5" fill="white" />
-							{showExpandedSideBar && <span className="ml-2.5">Dashboard</span>}
-						</Link>
-					</li>
-                    */}
-					<Filter />
-				</ul>
-			</div>
-
-			{/* <div
-				className={`absolute bottom-8 cursor-pointer rounded-lg text-white ${
-					showExpandedSideBar ? 'mx-2' : ''
-				}`}
-			>
-				<div
-					className={`flex justify-center items-center rounded-md ${
-						showExpandedSideBar
-							? 'px-2 py-2 bg-halfGreen hover:bg-halfGreen'
-							: 'px-2 py-1'
-					} z-10`}
-				></div>
 			</div> */}
 
+			<div className="h-screen  w-full px-3">
+				{showExpandedSideBar && (
+					<ul className="space-y-2">
+						<Filter />
+					</ul>
+				)}
+			</div>
+
 			<div
-				className="absolute bottom-0 right-0 bg-slate-300 rounded-l-md p-1"
+				className="absolute top-0 right-0 bg-slate-300 rounded-l-md p-1"
 				onClick={() => {
 					setShowExpandedSideBar(!showExpandedSideBar);
 					localStorage.setItem('showExpandedSideBar', !showExpandedSideBar);

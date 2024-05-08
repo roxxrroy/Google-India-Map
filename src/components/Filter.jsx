@@ -6,6 +6,7 @@ import { dataContext } from '../context/context';
 const Filter = () => {
 	const [stateData, setStateData] = useState([]);
 	const [selectedState, setSelectedState] = useState({});
+	console.log('it is clicked', selectedState);
 	const [districtData, setDistrictData] = useState([]);
 	const [selectedDistrict, setSelectedDistrict] = useState([]);
 	const [cropData, setCropData] = useState([]);
@@ -166,6 +167,7 @@ const Filter = () => {
 				diseaseId: diseaseData?.length ? diseaseData[0].id : 0,
 			},
 		]);
+		setData([]);
 	};
 
 	return (

@@ -4,6 +4,11 @@ import Map from './pages/Map';
 import './styles.css';
 import RequireAuth from './components/RequireAuth';
 import { dataContext } from './context/context';
+import HorizontalBarChart from './components/HorizontalBarChart';
+import LocationAnalysis from './charts/VerticalChart';
+import CropAnalysis from './charts/CropAnalysis';
+import MainPage from './charts/MainPage';
+import Home from './pages/Home';
 
 function App() {
 	const [selectedLocation, setSelectedLocation] = useState({
@@ -19,6 +24,15 @@ function App() {
 				<Routes>
 					<Route path="map/" element={<RequireAuth />}>
 						<Route
+							path="home"
+							element={
+								<Home
+									selectedLocation={selectedLocation}
+									setSelectedLocation={setSelectedLocation}
+								/>
+							}
+						/>
+						<Route
 							path="india"
 							element={
 								<Map
@@ -27,6 +41,10 @@ function App() {
 								/>
 							}
 						/>
+						<Route path="chart" element={<HorizontalBarChart />} />
+						<Route path="location" element={<LocationAnalysis />} />
+						<Route path="crop" element={<CropAnalysis />} />
+						<Route path="main" element={<MainPage />} />
 					</Route>
 				</Routes>
 			</BrowserRouter>

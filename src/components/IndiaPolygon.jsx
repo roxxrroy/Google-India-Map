@@ -28,26 +28,30 @@ const IndiaPolygon = ({ activeStateId, dataToShow, setIsState }) => {
 
 	return (
 		<>
-			{IndiaData.features.map((state) => (
-				<PolygonF
-					key={state.properties.id}
-					paths={state?.geometry?.coordinates[0].map((coord) => ({
-						lat: coord[1],
-						lng: coord[0],
-					}))}
-					options={{
-						//fillColor: getFillColor(state),
-						//fillOpacity: getFillColor(state) === randomColor ? 1.05 : 0.01,
-						fillColor: 'none',
-						fillOpacity: 0.01,
-						strokeColor: '#000000',
-						strokeOpacity: 0.8,
-						strokeWeight: 1,
-					}}
-					onClick={() => setIsState(true)}
-					visible={true}
-				/>
-			))}
+			{IndiaData.features.map((state) => {
+				console.log('state', state);
+
+				return (
+					<PolygonF
+						key={state.properties.id}
+						paths={state?.geometry?.coordinates[0].map((coord) => ({
+							lat: coord[1],
+							lng: coord[0],
+						}))}
+						options={{
+							//fillColor: getFillColor(state),
+							//fillOpacity: getFillColor(state) === randomColor ? 1.05 : 0.01,
+							fillColor: 'none',
+							fillOpacity: 0.01,
+							strokeColor: '#000000',
+							strokeOpacity: 0.8,
+							strokeWeight: 1,
+						}}
+						onClick={() => setIsState(true)}
+						visible={true}
+					/>
+				);
+			})}
 		</>
 	);
 };
