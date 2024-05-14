@@ -29,8 +29,6 @@ const IndiaPolygon = ({ activeStateId, dataToShow, setIsState }) => {
 	return (
 		<>
 			{IndiaData.features.map((state) => {
-				console.log('state', state);
-
 				return (
 					<PolygonF
 						key={state.properties.id}

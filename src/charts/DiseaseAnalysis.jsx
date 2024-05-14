@@ -9,26 +9,27 @@ import {
 	Legend,
 	LabelList,
 } from 'recharts';
-import { dataContext } from '../context/context';
 import { useALLData } from '../hooks/dataHook';
+import { dataContext } from '../context/context';
 import { useSelector } from 'react-redux';
 import { useGetAllDataQuery } from '../redux/api/slices/diseaseSlice';
 
-const CropAnalysis = () => {
-	//const filteredData = useContext(dataContext);
-
-	// const results = filteredData?.data;
-	const [selectedCrop, setSelectedCrop] = useState({});
+const DiseaseAnalysis = () => {
+	const [selectedDisease, setSelectedDisease] = useState({});
 	const [query, setQuery] = useState('');
+
 	const { data: data } = useGetAllDataQuery(query);
 
+	//const filteredData = useContext(dataContext);
 	const state = useSelector((state) => state);
 	//const filteredData = useALLData();
 	const results = state?.datas?.allData;
+	// console.log('filteredData ----->', filteredData);
+	// const results = filteredData?.data;
 
 	const nameCounts = results.reduce((acc, curr) => {
-		const { cropname } = curr;
-		acc[cropname] = (acc[cropname] || 0) + 1;
+		const { diseasename } = curr;
+		acc[diseasename] = (acc[diseasename] || 0) + 1;
 		return acc;
 	}, {});
 
@@ -38,16 +39,16 @@ const CropAnalysis = () => {
 		value,
 	}));
 
-	const handleCropClick = (data) => {
+	const handleDiseaseClick = (data) => {
 		console.log('It is clicked', data);
 		let queryParams = new URLSearchParams();
-		queryParams.append('cropname', data?.name);
+		queryParams.append('diseasename', data?.name);
 		setQuery(queryParams.toString());
 	};
 
 	return (
-		<div style={{ height: '300px', width: '100%', overflowY: 'scroll' }}>
-			<p>Crop Analysis</p>
+		<div style={{ height: '1000px', width: '100%', overflowY: 'scroll' }}>
+			<p>Disease Analysis</p>
 			<BarChart
 				width={600}
 				height={600}
@@ -63,7 +64,7 @@ const CropAnalysis = () => {
 				<Bar
 					dataKey="value"
 					fill="#829eca"
-					onClick={(event, index) => handleCropClick(event, index)}
+					onClick={(event, index) => handleDiseaseClick(event, index)}
 				>
 					<LabelList
 						dataKey="value"
@@ -72,7 +73,7 @@ const CropAnalysis = () => {
 					/>
 				</Bar>
 				<XAxis
-					dataKey="Crop Analysis"
+					dataKey="Disease Analysis"
 					axisLine={false}
 					tickLine={false}
 					height={2}
@@ -82,4 +83,4 @@ const CropAnalysis = () => {
 	);
 };
 
-export default CropAnalysis;
+export default DiseaseAnalysis;

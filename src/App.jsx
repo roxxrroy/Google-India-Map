@@ -9,6 +9,8 @@ import LocationAnalysis from './charts/VerticalChart';
 import CropAnalysis from './charts/CropAnalysis';
 import MainPage from './charts/MainPage';
 import Home from './pages/Home';
+import { Provider, useDispatch } from 'react-redux';
+import store from './redux/store';
 
 function App() {
 	const [selectedLocation, setSelectedLocation] = useState({
@@ -19,36 +21,40 @@ function App() {
 	const [data, setData] = useState([]);
 
 	return (
-		<dataContext.Provider value={{ data, setData }}>
-			<BrowserRouter>
-				<Routes>
-					<Route path="map/" element={<RequireAuth />}>
-						<Route
-							path="home"
-							element={
-								<Home
-									selectedLocation={selectedLocation}
-									setSelectedLocation={setSelectedLocation}
-								/>
-							}
-						/>
-						<Route
-							path="india"
-							element={
-								<Map
-									selectedLocation={selectedLocation}
-									setSelectedLocation={setSelectedLocation}
-								/>
-							}
-						/>
-						<Route path="chart" element={<HorizontalBarChart />} />
-						<Route path="location" element={<LocationAnalysis />} />
-						<Route path="crop" element={<CropAnalysis />} />
-						<Route path="main" element={<MainPage />} />
-					</Route>
-				</Routes>
-			</BrowserRouter>
-		</dataContext.Provider>
+		<>
+			<Provider store={store}>
+				{/* <dataContext.Provider value={{ data, setData }}> */}
+				<BrowserRouter>
+					<Routes>
+						<Route path="map/" element={<RequireAuth />}>
+							<Route
+								path="home"
+								element={
+									<Home
+										selectedLocation={selectedLocation}
+										setSelectedLocation={setSelectedLocation}
+									/>
+								}
+							/>
+							<Route
+								path="india"
+								element={
+									<Map
+										selectedLocation={selectedLocation}
+										setSelectedLocation={setSelectedLocation}
+									/>
+								}
+							/>
+							<Route path="chart" element={<HorizontalBarChart />} />
+							<Route path="location" element={<LocationAnalysis />} />
+							<Route path="crop" element={<CropAnalysis />} />
+							<Route path="main" element={<MainPage />} />
+						</Route>
+					</Routes>
+				</BrowserRouter>
+				{/* </dataContext.Provider> */}
+			</Provider>
+		</>
 	);
 }
 

@@ -9,6 +9,7 @@ import StatePolygons from '../components/StatePolygon';
 import DistrictPolygons from '../components/DistrictPolygon';
 import IndiaPolygon from '../components/IndiaPolygon';
 import { dataContext } from '../context/context';
+import { useALLData } from '../hooks/dataHook';
 
 const Map = ({ selectedLocation }) => {
 	const { isLoaded, loadError } = useLoadScript({
@@ -27,8 +28,9 @@ const Map = ({ selectedLocation }) => {
 		setActiveMarker(marker);
 	};
 
-	const filteredData = useContext(dataContext);
-	const data = filteredData?.data;
+	//const filteredData = useContext(dataContext);
+	const filteredData = useALLData();
+	const data = filteredData;
 	console.log('filterData in map', data);
 	const mapRef = useRef();
 

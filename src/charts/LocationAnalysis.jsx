@@ -9,26 +9,31 @@ import {
 	Legend,
 	LabelList,
 } from 'recharts';
-import { dataContext } from '../context/context';
 import { useALLData } from '../hooks/dataHook';
+//import { dataContext } from '../context/context';
 import { useSelector } from 'react-redux';
 import { useGetAllDataQuery } from '../redux/api/slices/diseaseSlice';
 
-const CropAnalysis = () => {
-	//const filteredData = useContext(dataContext);
-
-	// const results = filteredData?.data;
-	const [selectedCrop, setSelectedCrop] = useState({});
+const LocatioAnalysis = () => {
+	const [selectedDistrict, setSelectedDistrict] = useState({});
 	const [query, setQuery] = useState('');
 	const { data: data } = useGetAllDataQuery(query);
+
+	//const filteredData = useContext(dataContext);
+	// const filteredData = useALLData();
+	// const data = filteredData;
+	// const results = filteredData?.data;
 
 	const state = useSelector((state) => state);
 	//const filteredData = useALLData();
 	const results = state?.datas?.allData;
+	console.log('results --->', results);
 
 	const nameCounts = results.reduce((acc, curr) => {
-		const { cropname } = curr;
-		acc[cropname] = (acc[cropname] || 0) + 1;
+		const { district } = curr;
+		if (district && district.trim() !== '') {
+			acc[district] = (acc[district] || 0) + 1;
+		}
 		return acc;
 	}, {});
 
@@ -38,19 +43,19 @@ const CropAnalysis = () => {
 		value,
 	}));
 
-	const handleCropClick = (data) => {
+	const handleLocationClick = (data) => {
 		console.log('It is clicked', data);
 		let queryParams = new URLSearchParams();
-		queryParams.append('cropname', data?.name);
+		queryParams.append('district', data?.name);
 		setQuery(queryParams.toString());
 	};
 
 	return (
 		<div style={{ height: '300px', width: '100%', overflowY: 'scroll' }}>
-			<p>Crop Analysis</p>
+			<p>Location Analysis</p>
 			<BarChart
-				width={600}
-				height={600}
+				width={300}
+				height={300}
 				layout="vertical"
 				data={dataR}
 				margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
@@ -63,7 +68,7 @@ const CropAnalysis = () => {
 				<Bar
 					dataKey="value"
 					fill="#829eca"
-					onClick={(event, index) => handleCropClick(event, index)}
+					onClick={(event, index) => handleLocationClick(event, index)}
 				>
 					<LabelList
 						dataKey="value"
@@ -82,4 +87,4 @@ const CropAnalysis = () => {
 	);
 };
 
-export default CropAnalysis;
+export default LocatioAnalysis;
