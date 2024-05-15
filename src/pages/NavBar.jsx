@@ -16,7 +16,7 @@ const NavBar = ({
 
 	return (
 		<nav
-			className={`h-screen fixed bg-white ${
+			className={`h-screen fixed bg-red ${
 				showExpandedSideBar ? 'right-0' : 'right-0'
 			}`}
 		>

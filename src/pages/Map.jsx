@@ -1,4 +1,4 @@
-import React, { useState, useRef, useCallback, useContext } from 'react';
+import React, { useState, useRef, useCallback } from 'react';
 import {
 	GoogleMap,
 	useLoadScript,
@@ -8,8 +8,7 @@ import {
 import StatePolygons from '../components/StatePolygon';
 import DistrictPolygons from '../components/DistrictPolygon';
 import IndiaPolygon from '../components/IndiaPolygon';
-import { dataContext } from '../context/context';
-import { useALLData } from '../hooks/dataHook';
+import { useSelector } from 'react-redux';
 
 const Map = ({ selectedLocation }) => {
 	const { isLoaded, loadError } = useLoadScript({
@@ -20,7 +19,6 @@ const Map = ({ selectedLocation }) => {
 	const [activeDistrict, setActiveDistrict] = useState(null);
 	const [activeMarker, setActiveMarker] = useState(null);
 	const [IsState, setIsState] = useState(false);
-	console.log('IsState', IsState);
 	const handleActiveMarker = (marker) => {
 		if (marker === activeMarker) {
 			return;
@@ -29,9 +27,10 @@ const Map = ({ selectedLocation }) => {
 	};
 
 	//const filteredData = useContext(dataContext);
-	const filteredData = useALLData();
-	const data = filteredData;
-	console.log('filterData in map', data);
+	//const filteredData = useALLData();
+	const state = useSelector((state) => state);
+	const results = state?.datas?.allData;
+	const data = results;
 	const mapRef = useRef();
 
 	const onMapLoad = useCallback((map) => {
@@ -133,7 +132,6 @@ const Map = ({ selectedLocation }) => {
 							activeStateId={activeStateId}
 							setIsState={setIsState}
 						/>
-						{/* <HorizontalBarChart /> */}
 					</>
 				)}
 				{markers.map((marker) => (
@@ -142,9 +140,7 @@ const Map = ({ selectedLocation }) => {
 						position={marker?.position}
 						onClick={() => handleActiveMarker(marker?.id)}
 						icon={{
-							//url: 'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBMaWNlbnNlOiBNSVQuIE1hZGUgYnkgV2lsbCBLZWxseTogaHR0cHM6Ly93d3cud2lsbC1rZWxseS5jby51ay8gLS0+Cjxzdmcgd2lkdGg9IjUwcHgiIGhlaWdodD0iNTBweCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIyIiBmaWxsPSIjMDAwMDAwIi8+Cjwvc3ZnPg==',
 							url: 'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBMaWNlbnNlOiBBcGFjaGUuIE1hZGUgYnkgYnl0ZWRhbmNlOiBodHRwczovL2dpdGh1Yi5jb20vYnl0ZWRhbmNlL0ljb25QYXJrIC0tPgo8c3ZnIHdpZHRoPSIxMHB4IiBoZWlnaHQ9IjEwcHgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiBmaWxsPSIiIGZpbGwtb3BhY2l0eT0iMC4wMSIvPgo8cGF0aCBkPSJNMjQgMzNDMjguOTcwNiAzMyAzMyAyOC45NzA2IDMzIDI0QzMzIDE5LjAyOTQgMjguOTcwNiAxNSAyNCAxNUMxOS4wMjk0IDE1IDE1IDE5LjAyOTQgMTUgMjRDMTUgMjguOTcwNiAxOS4wMjk0IDMzIDI0IDMzWiIgZmlsbD0iI0ZGQTUwMCIgc3Ryb2tlPSIjRkZBNTAwIiBzdHJva2Utd2lkdGg9IjQiLz4KPC9zdmc+',
-							//scaledSize: new window.google.maps.Size(10, 10),
 						}}
 					>
 						{activeMarker === marker?.id ? (

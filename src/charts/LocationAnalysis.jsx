@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState } from 'react';
 import {
 	BarChart,
 	Bar,
@@ -9,7 +9,6 @@ import {
 	Legend,
 	LabelList,
 } from 'recharts';
-import { useALLData } from '../hooks/dataHook';
 //import { dataContext } from '../context/context';
 import { useSelector } from 'react-redux';
 import { useGetAllDataQuery } from '../redux/api/slices/diseaseSlice';
@@ -25,9 +24,7 @@ const LocatioAnalysis = () => {
 	// const results = filteredData?.data;
 
 	const state = useSelector((state) => state);
-	//const filteredData = useALLData();
 	const results = state?.datas?.allData;
-	console.log('results --->', results);
 
 	const nameCounts = results.reduce((acc, curr) => {
 		const { district } = curr;
@@ -44,7 +41,6 @@ const LocatioAnalysis = () => {
 	}));
 
 	const handleLocationClick = (data) => {
-		console.log('It is clicked', data);
 		let queryParams = new URLSearchParams();
 		queryParams.append('district', data?.name);
 		setQuery(queryParams.toString());

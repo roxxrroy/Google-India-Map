@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState } from 'react';
 import {
 	BarChart,
 	Bar,
@@ -9,21 +9,15 @@ import {
 	Legend,
 	LabelList,
 } from 'recharts';
-import { dataContext } from '../context/context';
-import { useALLData } from '../hooks/dataHook';
 import { useSelector } from 'react-redux';
 import { useGetAllDataQuery } from '../redux/api/slices/diseaseSlice';
 
 const CropAnalysis = () => {
-	//const filteredData = useContext(dataContext);
-
-	// const results = filteredData?.data;
 	const [selectedCrop, setSelectedCrop] = useState({});
 	const [query, setQuery] = useState('');
 	const { data: data } = useGetAllDataQuery(query);
 
 	const state = useSelector((state) => state);
-	//const filteredData = useALLData();
 	const results = state?.datas?.allData;
 
 	const nameCounts = results.reduce((acc, curr) => {

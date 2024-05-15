@@ -1,7 +1,4 @@
 {
-    "users":[
-        {"id":1,"name":"saket","crop":"Wheat"},{"id":2,"name":"suman","crop":"Maize"}
-    ],
     "states":[
         {
             "id": "6203a5ee199fc3be0e45f042",

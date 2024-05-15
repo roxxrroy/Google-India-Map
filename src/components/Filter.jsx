@@ -1,7 +1,7 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState, useEffect } from 'react';
 import Select from './Select';
 import axios from 'axios';
-import { dataContext } from '../context/context';
+//import { dataContext } from '../context/context';
 import { useGetAllDataQuery } from '../redux/api/slices/diseaseSlice';
 
 const Filter = () => {
@@ -9,10 +9,10 @@ const Filter = () => {
 	const [selectedState, setSelectedState] = useState({});
 	const [districtData, setDistrictData] = useState([]);
 	const [selectedDistrict, setSelectedDistrict] = useState([]);
-	const [cropData, setCropData] = useState([]);
-	const [selectedCrop, setSelectedCrop] = useState([]);
-	const [diseaseData, setDiseaseData] = useState([]);
-	const [selectedDisease, setSelectedDisease] = useState([]);
+	// const [cropData, setCropData] = useState([]);
+	// const [selectedCrop, setSelectedCrop] = useState([]);
+	// const [diseaseData, setDiseaseData] = useState([]);
+	// const [selectedDisease, setSelectedDisease] = useState([]);
 	const [query, setQuery] = useState('');
 	//const { data, setData } = useContext(dataContext);
 	const { data: data } = useGetAllDataQuery(query);
@@ -45,19 +45,19 @@ const Filter = () => {
 		}
 	}, [selectedState]);
 
-	useEffect(() => {
-		axios
-			.get('http://localhost:3031/crops')
-			.then((res) => setCropData(res.data))
-			.catch((err) => console.error(err));
-	}, []);
+	// useEffect(() => {
+	// 	axios
+	// 		.get('http://localhost:3031/crops')
+	// 		.then((res) => setCropData(res.data))
+	// 		.catch((err) => console.error(err));
+	// }, []);
 
-	useEffect(() => {
-		axios
-			.get('http://localhost:3031/diseases')
-			.then((res) => setDiseaseData(res.data))
-			.catch((err) => console.error(err));
-	}, []);
+	// useEffect(() => {
+	// 	axios
+	// 		.get('http://localhost:3031/diseases')
+	// 		.then((res) => setDiseaseData(res.data))
+	// 		.catch((err) => console.error(err));
+	// }, []);
 
 	useEffect(() => {
 		setSelectedState({
@@ -77,44 +77,44 @@ const Filter = () => {
 		]);
 	}, [districtData]);
 
-	useEffect(() => {
-		setSelectedCrop([
-			{
-				id: '0000-0000-0000-0000',
-				label: '--Select Crop--',
-				cropId: cropData?.length ? cropData[0].id : 0,
-			},
-		]);
-	}, [cropData]);
+	// useEffect(() => {
+	// 	setSelectedCrop([
+	// 		{
+	// 			id: '0000-0000-0000-0000',
+	// 			label: '--Select Crop--',
+	// 			cropId: cropData?.length ? cropData[0].id : 0,
+	// 		},
+	// 	]);
+	// }, [cropData]);
 
-	useEffect(() => {
-		setSelectedDisease([
-			{
-				id: '0000-0000-0000-0000',
-				label: '--Select Disease--',
-				diseaseId: diseaseData?.length ? diseaseData[0].id : 0,
-			},
-		]);
-	}, [diseaseData]);
+	// useEffect(() => {
+	// 	setSelectedDisease([
+	// 		{
+	// 			id: '0000-0000-0000-0000',
+	// 			label: '--Select Disease--',
+	// 			diseaseId: diseaseData?.length ? diseaseData[0].id : 0,
+	// 		},
+	// 	]);
+	// }, [diseaseData]);
 
 	const handleApplyClick = () => {
 		let queryParams = new URLSearchParams();
 
 		// Conditionally append parameters if they exist and are not undefined
-		if (selectedCrop.length && selectedCrop[0]?.label !== '--Select Crop--') {
-			selectedCrop.forEach((crop) => {
-				queryParams.append('cropId', crop?.id);
-			});
-		}
-		if (
-			selectedDisease.length &&
-			selectedDisease[0]?.label !== '--Select Disease--'
-		) {
-			selectedDisease.forEach((disease) => {
-				queryParams.append('diseaseId', disease?.id);
-			});
-			// queryParams.append('diseaseId', selectedDisease.id);
-		}
+		// if (selectedCrop.length && selectedCrop[0]?.label !== '--Select Crop--') {
+		// 	selectedCrop.forEach((crop) => {
+		// 		queryParams.append('cropId', crop?.id);
+		// 	});
+		// }
+		// if (
+		// 	selectedDisease.length &&
+		// 	selectedDisease[0]?.label !== '--Select Disease--'
+		// ) {
+		// 	selectedDisease.forEach((disease) => {
+		// 		queryParams.append('diseaseId', disease?.id);
+		// 	});
+		// 	// queryParams.append('diseaseId', selectedDisease.id);
+		// }
 		if (selectedState && selectedState?.label !== '--Select State--') {
 			queryParams.append('state', selectedState?.label);
 		}
@@ -202,7 +202,7 @@ const Filter = () => {
 				// }
 				multiple
 			/>
-			<Select
+			{/* <Select
 				className="md:w-40 lg:w-full mb-2.5"
 				optionsClassName="w-40"
 				btnClassName={`${cropData.length < 1 ? 'bg-disableColor' : 'bg-white'}`}
@@ -231,7 +231,7 @@ const Filter = () => {
 				isLoading={false}
 				disabled={diseaseData?.length < 1}
 				multiple
-			/>
+			/> */}
 			<div className="w-full flex flex-row items-center">
 				<div className="w-1/2 mr-2">
 					<button
